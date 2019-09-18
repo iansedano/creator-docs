@@ -40,7 +40,3 @@
 - use headphones and headphone mic
 
 - google photos folder for sharing
-
-
-
-* chat with Kim about payment!
