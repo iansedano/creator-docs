@@ -1,0 +1,31 @@
+site_name: CodingNomads Course Creator Docs
+site_description: Information on how to create engaging course content.
+site_author: Martin Breuss
+date: 2019-09-23
+some_url: https://codingnomads.co/
+nav:
+  - Overview: README.md
+  - Content Creation Guidelines: 01-content-guidelines.md
+  - Using Markdown: 02-markdown-course-creation.md
+  - Course Completion Settings: 03-course-completion.md
+  - Creating Quiz Resources: 04-creating-quizzes.md
+  - Quiz Question Types: 05-quiz-question-types.md
+  - Creating Lab Challenges: 06-creating-labs.md
+  - Creating Video Lessons: 07-creating-videos.md
+  - CodingNomads Forum: 08-forum.md
+  - Publishing Pipeline: 09-publishing-pipeline.md
+  - Style Guide: 10-platform-style.md
+  - Style Snippets Quick Reference: 11-snippets-reference.md
+
+theme:
+  name: readthedocs
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+markdown_extensions:
+  - toc:
+      permalink: True
+repo_url: https://github.com/CodingNomads/creator-docs
+repo_name: GitHub
