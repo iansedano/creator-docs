@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Martin Breuss">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>CodingNomads Platform Updates - CodingNomads Course Creator Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "CodingNomads Platform Updates";
+    var mkdocs_page_input_path = "updates.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> CodingNomads Course Creator Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Overview</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../01-content-guidelines/">Content Creation Guidelines</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../02-markdown-course-creation/">Using Markdown</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../03-course-completion/">Course Completion Settings</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../04-creating-quizzes/">Creating Quiz Resources</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../05-quiz-question-types/">Quiz Question Types</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../06-creating-labs/">Creating Lab Challenges</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../07-creating-videos/">Creating Video Lessons</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../08-forum/">CodingNomads Forum</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../09-publishing-pipeline/">Publishing Pipeline</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../10-platform-style/">Style Guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../11-snippets-reference/">Style Snippets Quick Reference</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">CodingNomads Course Creator Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>CodingNomads Platform Updates</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CodingNomads/creator-docs/edit/master/docs/updates.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="codingnomads-platform-updates">CodingNomads Platform Updates<a class="headerlink" href="#codingnomads-platform-updates" title="Permanent link">&para;</a></h1>
+<h2 id="synchronizing-styling">Synchronizing Styling<a class="headerlink" href="#synchronizing-styling" title="Permanent link">&para;</a></h2>
+<p>We want a <strong>unified style</strong> across all courses on the whole site.
+It is helpful to <strong>centralize</strong> the design as much as possible and allow
+it to <strong>remain adaptable</strong> without having to dig into every course's code separately.</p>
+<p>With this in mind I did some research and have a few updates to report:</p>
+<h3 id="colors">Colors<a class="headerlink" href="#colors" title="Permanent link">&para;</a></h3>
+<div style="display: flex; justify-content: space-between;">
+
+<div>
+    <p>My aim was to use the colors from our logo:</p>
+    <img src="https://pbs.twimg.com/profile_images/960981641689677824/ddu4i3as_400x400.jpg" width="250">
+</div>
+
+<div>
+Specifically, I would suggest the two outer colors:
+
+<h4>sunset yellow (outermost)</h4>
+<div style="display: flex">
+    <div style="background-color: #FBB03B; width: 80px; height: 80px; color: white;">#FBB03B</div>
+    <div>
+        <ul>
+            <li>HTML code:  #FBB03B</li>
+            <li>RGB code:   R: 251 G: 176 B: 59</li>
+            <li>HSV:    36.56° 76.49% 98.43%</li>
+        </ul>
+    </div>
+</div>
+
+<h4>sea blue</h4>
+<div style="display: flex">
+    <div style="background-color: #0071BD; width: 80px; height: 80px; color: white;">#0071BD</div>
+    <div>
+        <ul>
+            <li>HTML code:  #0071BD</li>
+            <li>RGB code:   R: 0 G: 113 B: 189</li>
+            <li>HSV:    204.13° 100% 74.12%</li>
+        </ul>
+    </div>
+</div>
+
+</div>
+
+</div>
+
+<h3 id="general-theme">General Theme<a class="headerlink" href="#general-theme" title="Permanent link">&para;</a></h3>
+<p>The general theme settings for the platform now reflect these two colors as <strong>primary</strong> (sea-blue) and <strong>secondary</strong> (sunset-yellow) <strong>Brand colors</strong>.</p>
+<p>They can be changed in <code>Administration / Appearance / Themes / Theme Settings</code></p>
+<h3 id="section-dividers">Section Dividers<a class="headerlink" href="#section-dividers" title="Permanent link">&para;</a></h3>
+<p>Secondly, the section dividers can now accept custom CSS classes that also reflect the Brand colors, and most importantly, make them easier to create and maintain.</p>
+<p>The HTML code for the section dividers can now be reduced to this:</p>
+<pre><code class="html">&lt;h5 class=&quot;section-divider&quot;&gt;Variables&lt;/h5&gt;
+</code></pre>
+
+<p>instead of that:</p>
+<pre><code class="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h5 style=&quot;background-color: #049fcd; color: #ffffff;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;nolink&gt;Variables&lt;/nolink&gt;&lt;/b&gt;&lt;/h5&gt;&lt;p&gt;&lt;/p&gt;
+</code></pre>
+
+<p>which means getting rid of all the in-line CSS and just <strong>assigning one of two classes</strong> in the usual HTML edit box:</p>
+<ul>
+<li><code>section-divider</code> for the general dividing elements (using CN sea-blue)</li>
+<li><code>section-assignment</code> for the "Assignments" dividing elements (using CN sunset-yellow)</li>
+</ul>
+<p>They are appropriately styled with spacing etc. from within our theme's SCSS file.
+Design changes for the dividers can now be made centrally in the <a href="https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker"><strong>Maker</strong> Theme settings</a> in the "Advanced" tab inside the second SCSS box.</p>
+<p>Currently:</p>
+<pre><code class="css">.section-divider,
+.section-assignment {
+    color: #fff;
+    font-weight: bold;
+    margin: 30px 0 5px 0;
+    padding: 2px 0 2px 25px;
+}
+.section-divider {background-color: #0071BD;} // codingnomads seablue
+.section-assignment {background-color: #FBB03B;} // codingnomads sunsetyellow
+</code></pre>
+
+<p>With this color/style changes, spacing (padding, margin) etc. can be easily applied site-wide.</p>
+<p><strong>So, if we apply those classes on all dividers once, we can keep playing and improving the style site-wide
+without needing to go into every course separately, which makes keeping up-to-date and improving easier.</strong></p>
+<p>This is highly editable, so any color, spacing, ... changes can afterwards be done in one swoop <a href="https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker">here</a> (Advanced tab / second SCSS box).</p>
+<h3 id="stop-automatic-linking">Stop Automatic Linking<a class="headerlink" href="#stop-automatic-linking" title="Permanent link">&para;</a></h3>
+<p>Since the <code>&lt;nolink&gt;</code> tags are <a href="https://docs.moodle.org/36/en/Nolink_tags">somewhat messy</a>, I decided to <a href="https://docs.moodle.org/24/en/Autolinking"><strong>disable Autolinking</strong></a> for the Python Online course.</p>
+<p>I think it's more a pain-in-the-ass than helpful.</p>
+<p>Autolinking can be <strong>disabled site-wide</strong>, which I would suggest to do, but I kept it for the Python course for now to not mess something up that might be used by someone else already.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/CodingNomads/creator-docs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

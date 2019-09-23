@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Martin Breuss">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Creating Quiz Resources - CodingNomads Course Creator Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Creating Quiz Resources";
+    var mkdocs_page_input_path = "04-creating-quizzes.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> CodingNomads Course Creator Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Overview</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../01-content-guidelines/">Content Creation Guidelines</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../02-markdown-course-creation/">Using Markdown</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../03-course-completion/">Course Completion Settings</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Creating Quiz Resources</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#creating-quizzes">Creating Quizzes</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#use-the-question-bank">Use the Question Bank</a></li>
+        
+            <li><a class="toctree-l3" href="#question-behavior">Question Behavior</a></li>
+        
+            <li><a class="toctree-l3" href="#feedback">Feedback</a></li>
+        
+            <li><a class="toctree-l3" href="#open-ended-text-questions">Open-Ended Text Questions</a></li>
+        
+            <li><a class="toctree-l3" href="#regex-short-answer-questions">Regex short-answer questions</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../05-quiz-question-types/">Quiz Question Types</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../06-creating-labs/">Creating Lab Challenges</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../07-creating-videos/">Creating Video Lessons</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../08-forum/">CodingNomads Forum</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../09-publishing-pipeline/">Publishing Pipeline</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../10-platform-style/">Style Guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../11-snippets-reference/">Style Snippets Quick Reference</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">CodingNomads Course Creator Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Creating Quiz Resources</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CodingNomads/creator-docs/edit/master/docs/04-creating-quizzes.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="creating-quizzes">Creating Quizzes<a class="headerlink" href="#creating-quizzes" title="Permanent link">&para;</a></h1>
+<p>Click on "Save and display"</p>
+<h2 id="use-the-question-bank">Use the Question Bank<a class="headerlink" href="#use-the-question-bank" title="Permanent link">&para;</a></h2>
+<p>Create and manage questions using the Moodle <strong>Question Bank</strong>.</p>
+<p><a href="https://platform.codingnomads.co/learn/question/edit.php?courseid=8&amp;cat=529%2C238">https://platform.codingnomads.co/learn/question/edit.php?courseid=8&amp;cat=529%2C238</a></p>
+<h3 id="create-and-use-categories">Create And Use Categories<a class="headerlink" href="#create-and-use-categories" title="Permanent link">&para;</a></h3>
+<p>These help to keep questions searchable and make it easier to add and edit questions related to a specific quiz.</p>
+<h2 id="question-behavior">Question Behavior<a class="headerlink" href="#question-behavior" title="Permanent link">&para;</a></h2>
+<p>We want students to receive immediate feedback if possible. Therefore, we encourage to use <strong>"Adaptive Mode"</strong> (the default) for quiz questions. You can see other possible modes in Moodle's docs on <a href="https://docs.moodle.org/37/en/Question_behaviours">Question behaviour</a>.</p>
+<p><strong>Note:</strong> Please use other modes only if you have a good and justified reason to do so. Chat me up with those reasons before getting started.</p>
+<h2 id="feedback">Feedback<a class="headerlink" href="#feedback" title="Permanent link">&para;</a></h2>
+<p>Students should be able to "check" their answers to questions and receive feedback. For this, you will need to fill out the "Feedback" blocks when creating a question.</p>
+<h2 id="open-ended-text-questions">Open-Ended Text Questions<a class="headerlink" href="#open-ended-text-questions" title="Permanent link">&para;</a></h2>
+<p>The suggested question type to use for questions that are designed to prompt students to think and formulate their own answers, is <a href="https://github.com/gbateson/moodle-qtype_essayautograde"><strong>Essay (autograded)</strong></a>.</p>
+<p><strong>Set the stage:</strong> Use <a href="https://platform.codingnomads.co/learn/question/edit.php?courseid=8&amp;cat=530%2C238&amp;qpage=0&amp;category=530%2C238&amp;qbshowtext=0&amp;recurse=0&amp;showhidden=0">this information-question</a> as the first question of each open-ended quiz you create. It will signify to students that they are entering exploration mode, as well as provide useful tips and a link to our forum.</p>
+<h3 id="required-settings">Required Settings<a class="headerlink" href="#required-settings" title="Permanent link">&para;</a></h3>
+<p>In order to use the default auto-grading, specify a minimum number of characters to be used. This needs to be &gt;0 (e.g. <code>1</code>). If this setting is left at <code>0</code>, then students will receive an "Incorrect" mark when submitting any written content.</p>
+<h3 id="additional-settings">Additional settings<a class="headerlink" href="#additional-settings" title="Permanent link">&para;</a></h3>
+<p>You can specify keywords etc. to give students automated feedback.</p>
+<h2 id="regex-short-answer-questions">Regex short-answer questions<a class="headerlink" href="#regex-short-answer-questions" title="Permanent link">&para;</a></h2>
+<p>These work great for giving more flexibility to students' answers.</p>
+<p><a href="https://docs.moodle.org/37/en/Regular_Expression_Short-Answer_question_type">https://docs.moodle.org/37/en/Regular_Expression_Short-Answer_question_type</a></p>
+<p>You can:</p>
+<ul>
+<li>
+<p>write Regex to specify a <strong>limited set of answers</strong>:</p>
+<p>Q: Write one keyword that is part of a Python conditional
+A: (if|elif|else)</p>
+</li>
+<li>
+<p>write Regex to <strong>exclude</strong> a wide set of wrong answers</p>
+<p>Q:</p>
+</li>
+</ul>
+<p><strong>Note:</strong> The plugin is designed to prevent <strong>correct answers</strong> that have endless possibilities - therefore the use of Regex for correct answers is limited.</p>
+<p>This is purposefully designed like that.</p>
+<p>The whole power of regex is available to you to identify <strong>incorrect answers</strong>, and you need to be more specific with correct answers.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../05-quiz-question-types/" class="btn btn-neutral float-right" title="Quiz Question Types">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../03-course-completion/" class="btn btn-neutral" title="Course Completion Settings"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/CodingNomads/creator-docs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../03-course-completion/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../05-quiz-question-types/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

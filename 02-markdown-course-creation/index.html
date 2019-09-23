@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Martin Breuss">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Using Markdown - CodingNomads Course Creator Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Using Markdown";
+    var mkdocs_page_input_path = "02-markdown-course-creation.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> CodingNomads Course Creator Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Overview</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../01-content-guidelines/">Content Creation Guidelines</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Using Markdown</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#markdown-course-creation">Markdown Course Creation</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#headings">Headings</a></li>
+        
+            <li><a class="toctree-l3" href="#code-and-code-blocks">Code And Code Blocks</a></li>
+        
+            <li><a class="toctree-l3" href="#example-markdown-rendering">Example Markdown Rendering</a></li>
+        
+            <li><a class="toctree-l3" href="#text-editor-choice">Text Editor Choice</a></li>
+        
+            <li><a class="toctree-l3" href="#changing-the-default-text-editor">Changing The Default Text Editor</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../03-course-completion/">Course Completion Settings</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../04-creating-quizzes/">Creating Quiz Resources</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../05-quiz-question-types/">Quiz Question Types</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../06-creating-labs/">Creating Lab Challenges</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../07-creating-videos/">Creating Video Lessons</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../08-forum/">CodingNomads Forum</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../09-publishing-pipeline/">Publishing Pipeline</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../10-platform-style/">Style Guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../11-snippets-reference/">Style Snippets Quick Reference</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">CodingNomads Course Creator Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Using Markdown</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CodingNomads/creator-docs/edit/master/docs/02-markdown-course-creation.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="markdown-course-creation">Markdown Course Creation<a class="headerlink" href="#markdown-course-creation" title="Permanent link">&para;</a></h1>
+<p>We advise to use <strong>Markdown</strong> for writing your course content. It is simple to read and write, introduces consistency through limiting options, and makes the content easy to re-use in other contexts. Write in Markdown rather than using a text editing program such as MS Word or Google Docs.</p>
+<p>It is also better to use Markdown than directly creating your content inside our learning platform. The latter can sometimes be a drag due to the content box window sizing and other platform-related small annoyances. It might also make the content too site-specific and difficult to transition elsewhere. We've made this mistake before, and would prefer to avoid accruing more technical debt.</p>
+<h2 id="headings">Headings<a class="headerlink" href="#headings" title="Permanent link">&para;</a></h2>
+<p>As a small deviation from keeping your content as platform-agnostic as possible, you should use lower-level headings as your page's main headings:</p>
+<ul>
+<li><strong>Main Headings:</strong> Use <code>&lt;h3&gt;</code> (or <code>###</code> in Markdown) as your page content's main heading.</li>
+<li><strong>Sub-Headings:</strong> Use <code>&lt;h4&gt;</code> (or <code>####</code> in Markdown) as your page content's sub-headings.</li>
+</ul>
+<p>The course content will be integrated in our platform, and higher-level headings are reserved for course and page headings, which need to be entered in a different entry form.</p>
+<h2 id="code-and-code-blocks">Code And Code Blocks<a class="headerlink" href="#code-and-code-blocks" title="Permanent link">&para;</a></h2>
+<p>Code snippets wrapped in single backticks as well as code blocks with triple-backticks are correctly rendered by the platform's Markdown engine.</p>
+<h2 id="example-markdown-rendering">Example Markdown Rendering<a class="headerlink" href="#example-markdown-rendering" title="Permanent link">&para;</a></h2>
+<p>When entering your content in Markdown, it will look like that during input:</p>
+<p><img alt="Entering content in Markdown format" src="../imgs/editor_markdown_view.png" /></p>
+<p>The above Markdown text will correctly render in our platform like so:</p>
+<p><img alt="Rendered Markdown content on our platform" src="../imgs/editor_rendered_view.png" /></p>
+<h2 id="text-editor-choice">Text Editor Choice<a class="headerlink" href="#text-editor-choice" title="Permanent link">&para;</a></h2>
+<p>Due to an overlap of a moodle theme we are using, it is currently not possible to individually change the text editor preference. Therefore, you can't easily switch to Markdown input yourself. We aim to get that fixed, but for now please contact a site admin to change the default editor site-wise when you'll be adding your content to the site. After you finish, we will need to change it back.</p>
+<p>It will remember the Plain Text Editor type you used to initially create a page, and when editing the page it will re-open with the Markdown editor selected.</p>
+<h2 id="changing-the-default-text-editor">Changing The Default Text Editor<a class="headerlink" href="#changing-the-default-text-editor" title="Permanent link">&para;</a></h2>
+<p><strong>Note:</strong> Currently this needs to be done by a site administrator:</p>
+<p><img alt="Screenshot with instructions on how to change the default editor order" src="../imgs/editor_choice_change_order.png" /></p>
+<p><img alt="Select 'Markdown format' in the editor's drop-down menu" src="../imgs/editor_choice_select_markdown.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../03-course-completion/" class="btn btn-neutral float-right" title="Course Completion Settings">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../01-content-guidelines/" class="btn btn-neutral" title="Content Creation Guidelines"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/CodingNomads/creator-docs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../01-content-guidelines/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../03-course-completion/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

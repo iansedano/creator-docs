@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Martin Breuss">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Quiz Question Types - CodingNomads Course Creator Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Quiz Question Types";
+    var mkdocs_page_input_path = "05-quiz-question-types.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> CodingNomads Course Creator Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Overview</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../01-content-guidelines/">Content Creation Guidelines</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../02-markdown-course-creation/">Using Markdown</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../03-course-completion/">Course Completion Settings</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../04-creating-quizzes/">Creating Quiz Resources</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Quiz Question Types</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#quiz-questions">Quiz Questions</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#open-ended-text-questions">Open-Ended Text Questions</a></li>
+        
+        </ul>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../06-creating-labs/">Creating Lab Challenges</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../07-creating-videos/">Creating Video Lessons</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../08-forum/">CodingNomads Forum</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../09-publishing-pipeline/">Publishing Pipeline</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../10-platform-style/">Style Guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../11-snippets-reference/">Style Snippets Quick Reference</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">CodingNomads Course Creator Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Quiz Question Types</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CodingNomads/creator-docs/edit/master/docs/05-quiz-question-types.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="quiz-questions">Quiz Questions<a class="headerlink" href="#quiz-questions" title="Permanent link">&para;</a></h1>
+<h2 id="open-ended-text-questions">Open-Ended Text Questions<a class="headerlink" href="#open-ended-text-questions" title="Permanent link">&para;</a></h2>
+<p>Open-ended questions should allow students to research concepts themselves, as well as guide them through sample responses,
+and finally also automatically mark a quiz as completed when a student gave their answer to all quiz questions.</p>
+<p>To accomplish this in Moodle's question context, we use questions of the type <strong>Essay (auto-graded)</strong>.</p>
+<p>The current setup:</p>
+<ul>
+<li>marks a student correct once they enter at least one character</li>
+<li>provides a sample answer when pressing the check button</li>
+<li>includes a reminder to compare and ask further questions to mentors/on the forum</li>
+<li>marks the quiz as completed when all questions have been answered</li>
+</ul>
+<h3 id="how-to-set-up-open-ended-text-questions">How To Set Up Open-Ended Text Questions<a class="headerlink" href="#how-to-set-up-open-ended-text-questions" title="Permanent link">&para;</a></h3>
+<p>In the Question Bank, create a new Category for the course section you are creating a quiz for.</p>
+<p>Next, create a new question of type <strong>Essay (auto-graded)</strong>.</p>
+<p>You need to fill the following sections:</p>
+<p>In <strong>Combined Feedback</strong> / "For any correct response" enter:</p>
+<ul>
+<li>the disclaimer alert box</li>
+<li>the sample answer</li>
+</ul>
+<p><img alt="combined feedback box filled" src="../imgs/01_feedback.png" /></p>
+<p><strong>Code for Disclaimer Alert Box:</strong></p>
+<pre><code class="html">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
+    &lt;strong&gt;Thanks for submitting!&lt;/strong&gt; You can compare your answer to our
+    &lt;strong&gt;sample response&lt;/strong&gt; below. Since these are open-ended questions,
+    the answers might not match completely. Please discuss any further questions
+    with your mentor and on &lt;a href=&quot;https://forum.codingnomads.co/&quot; target=&quot;_blank&quot; class=&quot;alert-link&quot;&gt;our forum&lt;/a&gt;.
+&lt;/div&gt;
+</code></pre>
+
+<p>In <strong>Auto-Grading</strong> change to "Characters" and "1" in the respective boxes:</p>
+<p><img alt="selection set to character and 1 respectively" src="../imgs/03_characters.png" /></p>
+<p>Finally, in the <strong>Multiple tries</strong> section, set the "Penalty for each incorrect try" to <code>0%</code>:</p>
+<p><img alt="set penalty to 0" src="../imgs/04_no_penalty.png" /></p>
+<h3 id="optional-settings">Optional Settings<a class="headerlink" href="#optional-settings" title="Permanent link">&para;</a></h3>
+<p>You can also change the input size of the answer text field:</p>
+<p><img alt="change input size of answer text" src="../imgs/02_input_size.png" /></p>
+<p>You can also <strong>add tags</strong> to each question:</p>
+<p><img alt="add tags" src="../imgs/05_tags.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../06-creating-labs/" class="btn btn-neutral float-right" title="Creating Lab Challenges">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../04-creating-quizzes/" class="btn btn-neutral" title="Creating Quiz Resources"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/CodingNomads/creator-docs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../04-creating-quizzes/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../06-creating-labs/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

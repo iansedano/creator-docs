@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Martin Breuss">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Creating Video Lessons - CodingNomads Course Creator Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Creating Video Lessons";
+    var mkdocs_page_input_path = "07-creating-videos.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> CodingNomads Course Creator Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Overview</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../01-content-guidelines/">Content Creation Guidelines</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../02-markdown-course-creation/">Using Markdown</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../03-course-completion/">Course Completion Settings</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../04-creating-quizzes/">Creating Quiz Resources</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../05-quiz-question-types/">Quiz Question Types</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../06-creating-labs/">Creating Lab Challenges</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Creating Video Lessons</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#in-short">IN SHORT</a></li>
+    
+
+    <li class="toctree-l2"><a href="#welcome-video">welcome video</a></li>
+    
+
+    <li class="toctree-l2"><a href="#as-long-as-necessary">as long as necessary</a></li>
+    
+
+    <li class="toctree-l2"><a href="#tips">tips</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../08-forum/">CodingNomads Forum</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../09-publishing-pipeline/">Publishing Pipeline</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../10-platform-style/">Style Guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../11-snippets-reference/">Style Snippets Quick Reference</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">CodingNomads Course Creator Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Creating Video Lessons</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CodingNomads/creator-docs/edit/master/docs/07-creating-videos.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="in-short">IN SHORT<a class="headerlink" href="#in-short" title="Permanent link">&para;</a></h1>
+<ul>
+<li>short videos, if possible no longer than 5-8 minutes</li>
+<li>stable setup, avoid background noise</li>
+<li>to make editing easier:<ul>
+<li>use zoom, use pause</li>
+<li>don't talk while coding lengthily if it gets you off track, then better explain when finished</li>
+<li>name file with the title of the video</li>
+<li>add notes in doc<ul>
+<li>mistake to cut and their timestamps</li>
+<li>where screen overlay is needed and what should go on there</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h1 id="welcome-video">welcome video<a class="headerlink" href="#welcome-video" title="Permanent link">&para;</a></h1>
+<ul>
+<li>with google sheets powerpoint</li>
+<li>mostly talk-over</li>
+</ul>
+<h1 id="as-long-as-necessary">as long as necessary<a class="headerlink" href="#as-long-as-necessary" title="Permanent link">&para;</a></h1>
+<ul>
+<li>5 to 8 minutes, better shorter</li>
+</ul>
+<h1 id="tips">tips<a class="headerlink" href="#tips" title="Permanent link">&para;</a></h1>
+<ul>
+<li>when there's only coding, don't talk anything<ul>
+<li>helpful for editing when there is no sound</li>
+</ul>
+</li>
+<li>easy to speed it up in editing</li>
+<li>at the end quickly explain what you did</li>
+<li>avoid background noise</li>
+<li>avoid 'ahems' etc. - it feels much more professional</li>
+<li>mostly use screenshares, you can also sometimes show your face if you want to</li>
+<li>
+<p>be explicit about when there are mistakes (what time etc.) - quicker to cut them out when editing</p>
+<ul>
+<li>undo to get back to working version</li>
+<li>when realizing that explanation doesn't go too well</li>
+</ul>
+</li>
+<li>
+<p>title of videos (saved filename)</p>
+</li>
+<li>add a README for notes about editing</li>
+<li>
+<p>note when there should be a screen overlay (e.g. mis-naming when talking)</p>
+</li>
+<li>
+<p>when recording yourself, make sure your recording setup and table is stable, so that the camera doesn't move</p>
+</li>
+<li>at a minimum, use headphones and a headphone mic</li>
+<li>
+<p>if you have a better microphone, please use that instead</p>
+</li>
+<li>
+<p>upload the finished recordings to a google photos folder for sharing</p>
+</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../08-forum/" class="btn btn-neutral float-right" title="CodingNomads Forum">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../06-creating-labs/" class="btn btn-neutral" title="Creating Lab Challenges"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/CodingNomads/creator-docs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../06-creating-labs/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../08-forum/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
