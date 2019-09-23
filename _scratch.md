@@ -1,3 +1,10 @@
+# Organization During Development
+Explore whether it makes sense to use Trello boards on a per-course basis.
+
+# Course Maintenance and Updates
+It's a lot of work. How to handle this best? Eventually we should have someone who works on just that.
+
+
 # General Course Settings
 * set up auto-completion course-wide as follows:
     - _insert settings_
@@ -21,7 +28,7 @@
 ## Bootstrap Elements We Use
 Avoid styling pages in the editor, it makes it individual and difficult to globally adapt and keep in sync.
 
-Best way is to use Markdown with little extra styling.
+Best way is to use Markdown with only little extra styling.
 
 - jumbotron for resources? (maybe tone it down?)
 - quotes?
@@ -54,7 +61,7 @@ Students (clone or) download the ZIP from GitHub at the beginning of the course
 
 ## Use Consistent Numbering
 
-Double-digitst (should we do triple?)
+Double-digits (should we do triple?)
 
 Here's a link to a tool that helps with renaming. You'll need it probably...
 
@@ -64,7 +71,7 @@ Here's a link to a tool that helps with renaming. You'll need it probably...
 
 # Teachable Summit
 
-Could be interesting (could be crap:
+Could be interesting (could be crap):
 
 <https://teachable.com/live/register>
 
