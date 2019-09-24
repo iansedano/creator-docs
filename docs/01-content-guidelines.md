@@ -27,7 +27,7 @@ Attempt to follow these three simple steps even for short sections. Our brain pr
 
 **Be consistent:** Just like in programming, there are many correct ways of formatting your content. Please adhere to this style guide to allow consistency across all CodingNomads courses. And, most importantly, be consistent within your own course materials.
 
-**Use bolding for new terms:** Bolding should be used to introduce new terms and highlight key phrases (e.g. In this section, you'll learn about **iteration**)
+**Use bolding for new terms:** Bolding should be used to introduce new terms and highlight key phrases (e.g. "In this section, you'll learn about **iteration**")
 
 **Use emphasis to put focus on a word:** Emphasis should be used to, well, put _emphasis_ on a word or part of a sentence (e.g. "There is _so_ much to learn")
 
