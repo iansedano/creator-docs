@@ -45,3 +45,5 @@ Attempt to follow these three simple steps even for short sections. Our brain pr
 **Show the instructor is also a mere mortal:** It helps students to know that you also make mistakes, and that also for you some concepts were daunting at first or difficult to grasp.
 
 **Show that you're supportive:** Programming topics are tough and often confusing for newcomers. It can easily feel overwhelming, even after making some progress, when the door opens up wider and ever more information starts flooding in. Try to help your students by giving them a stable ground to stand on. Be supportive and encourage them to keep learning.
+
+**Feel free to have some fun!** We want our students to enjoy our courses as much as possible and laugh as often as possible! :)
