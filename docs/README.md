@@ -1,4 +1,4 @@
-# CodingNomads Course Creator Docs
+# [CodingNomads Course Creator Docs](https://codingnomads.github.io/creator-docs/)
 
 This resource provides helpful guidelines for creating courses on CodingNomads' Learning Platform. It aims to:
 
