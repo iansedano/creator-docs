@@ -9,4 +9,6 @@ This resource provides helpful guidelines for creating courses on CodingNomads' 
 * **Explain workflows:** Some workflows are specific to our platform. Read about them here and avoid hair loss when firguring it out yourself.
 * **Cast our teaching methods in writing:** We have ideas on what makes a great learning experience, and how to support it through the course material and its presentation.
 
+![CodingNomads Logo](imgs/cn_logo.png)
+
 **Note:** These docs are a living document and in their early stages. We are thankful for your contribution in making them better.
