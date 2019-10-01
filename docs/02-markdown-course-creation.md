@@ -6,7 +6,7 @@ It is also better to use Markdown than directly creating your content inside our
 
 Here is a screencast that explains how to add your Markdown content to a resource in our platform:
 
-<iframe width="720" src="https://www.youtube.com/embed/fNW_77QC67E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fNW_77QC67E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Headings
 
