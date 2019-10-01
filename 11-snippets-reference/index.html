@@ -55,6 +55,11 @@
           
             <li class="toctree-l1">
 		
+    <a class="" href="../00-basics/">Course Creation Basics</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
     <a class="" href="../01-content-guidelines/">Content Creation Guidelines</a>
 	    </li>
           
@@ -112,23 +117,13 @@
     
         <ul>
         
-            <li><a class="toctree-l3" href="#weekly-breakdowns">Weekly Breakdowns</a></li>
+            <li><a class="toctree-l3" href="#topic-buttons">Topic Buttons</a></li>
         
             <li><a class="toctree-l3" href="#tags-dividers">Tags (Dividers)</a></li>
         
             <li><a class="toctree-l3" href="#headings">Headings</a></li>
         
-            <li><a class="toctree-l3" href="#information">Information</a></li>
-        
-            <li><a class="toctree-l3" href="#resources">Resources</a></li>
-        
-            <li><a class="toctree-l3" href="#tasks">Tasks</a></li>
-        
-            <li><a class="toctree-l3" href="#quotes">Quotes</a></li>
-        
-            <li><a class="toctree-l3" href="#code-blocks">Code Blocks</a></li>
-        
-            <li><a class="toctree-l3" href="#in-line-code">In-line Code</a></li>
+            <li><a class="toctree-l3" href="#color-highlighted-boxes">Color-Highlighted Boxes</a></li>
         
         </ul>
     
@@ -171,25 +166,50 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="component-snippets">Component Snippets<a class="headerlink" href="#component-snippets" title="Permanent link">&para;</a></h2>
-<h3 id="weekly-breakdowns">Weekly Breakdowns<a class="headerlink" href="#weekly-breakdowns" title="Permanent link">&para;</a></h3>
-<pre><code class="html">&lt;h3 class=&quot;week week-1&quot;&gt;Week 1 - Part 1&lt;/h3&gt;
+                <h1 id="component-snippets">Component Snippets<a class="headerlink" href="#component-snippets" title="Permanent link">&para;</a></h1>
+<p>This is a quick reference to the HTML snippets used in our courses to build recurring elements. Most of them are based on Bootstrap. You can read more on the relevant Bootstrap classes by clicking the snippets title.</p>
+<h2 id="topic-buttons"><a href="https://getbootstrap.com/docs/4.0/components/buttons/">Topic Buttons</a><a class="headerlink" href="#topic-buttons" title="Permanent link">&para;</a></h2>
+<p>Blue:</p>
+<pre><code class="html">&lt;div class=&quot;d-flex flex-row-reverse&quot;&gt;
+
+&lt;span class=&quot;badge badge-primary rounded&quot;&gt;
+Section 1
+&lt;/span&gt;
+
+&lt;/div&gt;
 </code></pre>
 
-<h3 id="tags-dividers">Tags (Dividers)<a class="headerlink" href="#tags-dividers" title="Permanent link">&para;</a></h3>
-<h4 id="section-dividers">Section Dividers<a class="headerlink" href="#section-dividers" title="Permanent link">&para;</a></h4>
+<p>Yellow:</p>
+<pre><code class="html">&lt;div class=&quot;d-flex flex-row-reverse&quot;&gt;
+
+&lt;span class=&quot;badge badge-warning rounded&quot;&gt;
+Section 6
+&lt;/span&gt;
+
+&lt;/div&gt;
+</code></pre>
+
+<h2 id="tags-dividers">Tags (Dividers)<a class="headerlink" href="#tags-dividers" title="Permanent link">&para;</a></h2>
+<p><strong>Section Dividers (blue):</strong></p>
 <pre><code class="html">&lt;h5 class=&quot;section-divider&quot;&gt;Section Mini-Heading&lt;/h5&gt;
 </code></pre>
 
-<h4 id="assignment-dividers">Assignment Dividers<a class="headerlink" href="#assignment-dividers" title="Permanent link">&para;</a></h4>
+<p><strong>Assignment Dividers (yellow):</strong></p>
 <pre><code class="html">&lt;h5 class=&quot;section-assignment&quot;&gt;Assignments&lt;/h5&gt;
 </code></pre>
 
-<h3 id="headings">Headings<a class="headerlink" href="#headings" title="Permanent link">&para;</a></h3>
-<p>Use Editor-provided headings, <strong>no editor styling</strong>.</p>
-<h3 id="information">Information<a class="headerlink" href="#information" title="Permanent link">&para;</a></h3>
+<h2 id="headings">Headings<a class="headerlink" href="#headings" title="Permanent link">&para;</a></h2>
+<p>Use Markdown for headings, and start your highest-level at <code>&lt;h3&gt;</code> (or <code>###</code> in Markdown). Avoid applying additional styling in the platform internal editor or through custom HTML classes and CSS.</p>
+<h2 id="color-highlighted-boxes">Color-Highlighted Boxes<a class="headerlink" href="#color-highlighted-boxes" title="Permanent link">&para;</a></h2>
+<p><strong>Information Box (blue):</strong></p>
+<pre><code class="html">&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;
+  &lt;strong&gt;Info:&lt;/strong&gt; Highlights interesting (additional) information.
+&lt;/div&gt;
+</code></pre>
+
+<p><strong>Note Box (yellow):</strong></p>
 <pre><code class="html">&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
-  &lt;strong&gt;Note:&lt;/strong&gt; Infos about upcoming course sections.
+  &lt;strong&gt;Note:&lt;/strong&gt; Important infos about upcoming course sections, or potential gotchas.
 &lt;/div&gt;
 </code></pre>
 
@@ -213,12 +233,15 @@
 </code></pre>
 
 <h3 id="code-blocks">Code Blocks<a class="headerlink" href="#code-blocks" title="Permanent link">&para;</a></h3>
-<pre><code>```
+<p>Use Markdown to create code blocks.</p>
+<pre><code>```python
 print("your code here")
 ```
 </code></pre>
-<h3 id="in-line-code">In-line Code<a class="headerlink" href="#in-line-code" title="Permanent link">&para;</a></h3>
-<p>In <em>HTML editor</em>: <code>&lt;code&gt;your_code_here()&lt;/code&gt;</code></p>
+<h3 id="in-line-code">In-Line Code<a class="headerlink" href="#in-line-code" title="Permanent link">&para;</a></h3>
+<p>Use Markdown to create in-line-code snippets:</p>
+<p><code>my_funct()</code></p>
+<p>In the platform's <strong>HTML editor</strong> you can create them like this: <code>&lt;code&gt;your_code_here()&lt;/code&gt;</code></p>
               
             </div>
           </div>
