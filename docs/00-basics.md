@@ -28,3 +28,9 @@ We have [guidelines for technical writing](01-content-guidelines.md) that you sh
 ## Reflect
 
 **Quiz Checkpoints:** Interlaced with the written and video course content, students encounter quizzes that serve as checkpoints for themselves. Answering quiz questions forces them to synthesize the content they previously passively consumed. It also allows them to understand whether they got a grip on the previous section's content, or whether they will have to study it some more.
+
+# How To Duplicate a Resource
+
+Starting with our copied skeleton course resource, you can often simply duplicate a resource and then replace the content. This is the recommended way of building your course, since it keeps important settings intact. The following video shows you how to duplicate an existing resource in our platform:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fSOzDZjKlIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
