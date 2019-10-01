@@ -1,34 +1,66 @@
-## Component Snippets
+# Component Snippets
 
-### Weekly Breakdowns
+This is a quick reference to the HTML snippets used in our courses to build recurring elements. Most of them are based on Bootstrap. You can read more on the relevant Bootstrap classes by clicking the snippets title.
+
+## [Topic Buttons](https://getbootstrap.com/docs/4.0/components/buttons/)
+
+Blue:
 
 ```html
-<h3 class="week week-1">Week 1 - Part 1</h3>
+<div class="d-flex flex-row-reverse">
+
+<span class="badge badge-primary rounded">
+Section 1
+</span>
+
+</div>
 ```
 
-### Tags (Dividers)
+Yellow:
 
-#### Section Dividers
+```html
+<div class="d-flex flex-row-reverse">
+
+<span class="badge badge-warning rounded">
+Section 6
+</span>
+
+</div>
+```
+
+## Tags (Dividers)
+
+**Section Dividers (blue):**
 
 ```html
 <h5 class="section-divider">Section Mini-Heading</h5>
 ```
 
-#### Assignment Dividers
+**Assignment Dividers (yellow):**
 
 ```html
 <h5 class="section-assignment">Assignments</h5>
 ```
 
-### Headings
+## Headings
 
-Use Editor-provided headings, **no editor styling**.
+Use Markdown for headings, and start your highest-level at `<h3>` (or `###` in Markdown). Avoid applying additional styling in the platform internal editor or through custom HTML classes and CSS.
 
-### Information
+## Color-Highlighted Boxes
+
+**Information Box (blue):**
+
+```html
+<div class="alert alert-info" role="alert">
+  <strong>Info:</strong> Highlights interesting (additional) information.
+</div>
+```
+
+**Note Box (yellow):**
 
 ```html
 <div class="alert alert-warning" role="alert">
-  <strong>Note:</strong> Infos about upcoming course sections.
+  <strong>Note:</strong> Important infos about upcoming course sections, or potential gotchas.
 </div>
 ```
 
@@ -59,10 +91,16 @@ Use Editor-provided headings, **no editor styling**.
 
 ### Code Blocks
 
-    ```
+Use Markdown to create code blocks.
+
+    ```python
     print("your code here")
     ```
 
-### In-line Code
+### In-Line Code
 
-In _HTML editor_: `<code>your_code_here()</code>`
+Use Markdown to create in-line-code snippets:
+
+  `my_funct()`
+
+In the platform's **HTML editor** you can create them like this: `<code>your_code_here()</code>`

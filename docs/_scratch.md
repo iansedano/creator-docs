@@ -1,3 +1,65 @@
+# Creator Call
+
+- set markdown as default option in plain text editor
+
+- example section of cloned course
+    * make sure the completion settings are set correctly etc.
+
+short screencast videos
+- how to clone a resource
+- what needs to be done?
+
+
+
+* call about pedagogy
+    - how to best teach content?
+
+
+----
+
+
+- Welcome:
+    * who's who, what course
+    * first batch of content creators
+
+- Creator Docs
+    * Basic Idea - make life easier, assure consistency and quality
+    * writing tips
+        - parallel structure
+        - consistent formatting
+        - tone!
+    * stay DRM-free, don't plagiarize
+
+- Use Markdown
+    * why? - show process on platform
+    * how? - show VSCode (or any other)
+    * (host on GitHub for feedback)
+    * input? - show process on platform -- ADMIN ONLY!
+
+- Our Platform
+    * copy a slice of an existing course to jumpstart
+    * these docs will have important info and walkthroughs
+    * ask when you're ready to input
+
+- Quizzes
+    * **Adaptive Mode** for everything
+    * CodeRunner
+    * Open-ended text questions
+
+- Labs
+    * Numbers + names in file name formatting
+    * Instructions in code comments, so students can start coding below
+
+- Early Feedback
+    * share content while in development, let's chat about it
+
+- Questions?
+    - Jupyter Labs Server --> let's try it out
+
+
+
+
+
 # Organization During Development
 Explore whether it makes sense to use Trello boards on a per-course basis.
 
@@ -96,3 +158,13 @@ Dashboard / Site administration / Grades / General settings
 But I don't think we'll need grades, so I removed it from the User menu
 
 Aiming to keep the interface as clean as possible for students, avoid links that are not necessary.
+
+
+
+
+## Disclaimers
+
+Add disclaimers `<alert>` boxes when a new concept is mentioned but not deeply explained. You want to avoid students feeling like this:
+
+>you know, I think my main issue is if I get to a page, and the way it is written implies I should already understand it, but it is completely new and unfamiliar. It has me worrying that it is obvious and I am the only one just not getting it.
+
