@@ -1,14 +1,14 @@
-# CodingNomads Platform Updates
+# CodingNomads Branding Resource
 
-## Synchronizing Styling
+Central place to refer to for branding information.
 
-We want a **unified style** across all courses on the whole site.
-It is helpful to **centralize** the design as much as possible and allow
-it to **remain adaptable** without having to dig into every course's code separately.
+To keep our message clear and easy to communicate, we want:
 
-With this in mind I did some research and have a few updates to report:
+- **Unified Style:** Our visual offerings should look the same across all courses on the whole platform and additional web presence
+- **Centralized Design:** We want to keep as much of the styling in one central style sheet
+- **Adaptable Styling:** By centralizing the desing, it allows us to make style related updates that are reflected across all our offerings without having to e.g. dig into every course's code separately
 
-### Colors
+## Colors
 
 <div style="display: flex; justify-content: space-between;">
 
@@ -18,7 +18,8 @@ With this in mind I did some research and have a few updates to report:
 </div>
 
 <div>
-Specifically, I would suggest the two outer colors:
+
+Specifically, I would suggest the two outer colors for primary branding:
 
 <h4>sunset yellow (outermost)</h4>
 <div style="display: flex">
@@ -48,61 +49,10 @@ Specifically, I would suggest the two outer colors:
 
 </div>
 
-### General Theme
+The general theme settings for our brand communication could reflect these two colors as **primary** (sea-blue) and **secondary** (sunset-yellow) brand colors.
 
-The general theme settings for the platform now reflect these two colors as **primary** (sea-blue) and **secondary** (sunset-yellow) **Brand colors**.
+## Fonts
 
-They can be changed in `Administration / Appearance / Themes / Theme Settings`
+What is the font that is currently used in the CodingNomads logo?
 
-### Section Dividers
-
-Secondly, the section dividers can now accept custom CSS classes that also reflect the Brand colors, and most importantly, make them easier to create and maintain.
-
-The HTML code for the section dividers can now be reduced to this:
-
-```html
-<h5 class="section-divider">Variables</h5>
-```
-
-instead of that:
-
-```html
-<p><br></p><h5 style="background-color: #049fcd; color: #ffffff;"><b>&nbsp;<nolink>Variables</nolink></b></h5><p></p>
-```
-
-which means getting rid of all the in-line CSS and just **assigning one of two classes** in the usual HTML edit box:
-
-* `section-divider` for the general dividing elements (using CN sea-blue)
-* `section-assignment` for the "Assignments" dividing elements (using CN sunset-yellow)
-
-They are appropriately styled with spacing etc. from within our theme's SCSS file.
-Design changes for the dividers can now be made centrally in the [**Maker** Theme settings](https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker) in the "Advanced" tab inside the second SCSS box.
-
-Currently:
-
-```css
-.section-divider,
-.section-assignment {
-    color: #fff;
-    font-weight: bold;
-    margin: 30px 0 5px 0;
-    padding: 2px 0 2px 25px;
-}
-.section-divider {background-color: #0071BD;} // codingnomads seablue
-.section-assignment {background-color: #FBB03B;} // codingnomads sunsetyellow
-```
-
-With this color/style changes, spacing (padding, margin) etc. can be easily applied site-wide.
-
-**So, if we apply those classes on all dividers once, we can keep playing and improving the style site-wide
-without needing to go into every course separately, which makes keeping up-to-date and improving easier.**
-
-This is highly editable, so any color, spacing, ... changes can afterwards be done in one swoop [here](https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker) (Advanced tab / second SCSS box).
-
-### Stop Automatic Linking
-
-Since the `<nolink>` tags are [somewhat messy](https://docs.moodle.org/36/en/Nolink_tags), I decided to [**disable Autolinking**](https://docs.moodle.org/24/en/Autolinking) for the Python Online course.
-
-I think it's more a pain-in-the-ass than helpful.
-
-Autolinking can be **disabled site-wide**, which I would suggest to do, but I kept it for the Python course for now to not mess something up that might be used by someone else already.
+What is the font used in the beginning of video recordings? (I'd like to suggest course creators to use that same font if they make slides)
