@@ -8,7 +8,7 @@
   
   <meta name="author" content="Martin Breuss">
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>CodingNomads Platform Updates - CN Course Creator Docs</title>
+  <title>CodingNomads Branding Resource - CN Course Creator Docs</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -17,7 +17,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "CodingNomads Platform Updates";
+    var mkdocs_page_name = "CodingNomads Branding Resource";
     var mkdocs_page_input_path = "updates.md";
     var mkdocs_page_url = null;
   </script>
@@ -135,7 +135,7 @@
     
       
     
-    <li>CodingNomads Platform Updates</li>
+    <li>CodingNomads Branding Resource</li>
     <li class="wy-breadcrumbs-aside">
       
         <a href="https://github.com/CodingNomads/creator-docs/edit/master/docs/updates.md"
@@ -148,13 +148,15 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="codingnomads-platform-updates">CodingNomads Platform Updates<a class="headerlink" href="#codingnomads-platform-updates" title="Permanent link">&para;</a></h1>
-<h2 id="synchronizing-styling">Synchronizing Styling<a class="headerlink" href="#synchronizing-styling" title="Permanent link">&para;</a></h2>
-<p>We want a <strong>unified style</strong> across all courses on the whole site.
-It is helpful to <strong>centralize</strong> the design as much as possible and allow
-it to <strong>remain adaptable</strong> without having to dig into every course's code separately.</p>
-<p>With this in mind I did some research and have a few updates to report:</p>
-<h3 id="colors">Colors<a class="headerlink" href="#colors" title="Permanent link">&para;</a></h3>
+                <h1 id="codingnomads-branding-resource">CodingNomads Branding Resource<a class="headerlink" href="#codingnomads-branding-resource" title="Permanent link">&para;</a></h1>
+<p>Central place to refer to for branding information.</p>
+<p>To keep our message clear and easy to communicate, we want:</p>
+<ul>
+<li><strong>Unified Style:</strong> Our visual offerings should look the same across all courses on the whole platform and additional web presence</li>
+<li><strong>Centralized Design:</strong> We want to keep as much of the styling in one central style sheet</li>
+<li><strong>Adaptable Styling:</strong> By centralizing the desing, it allows us to make style related updates that are reflected across all our offerings without having to e.g. dig into every course's code separately</li>
+</ul>
+<h2 id="colors">Colors<a class="headerlink" href="#colors" title="Permanent link">&para;</a></h2>
 <div style="display: flex; justify-content: space-between;">
 
 <div>
@@ -163,7 +165,8 @@ it to <strong>remain adaptable</strong> without having to dig into every course'
 </div>
 
 <div>
-Specifically, I would suggest the two outer colors:
+
+Specifically, I would suggest the two outer colors for primary branding:
 
 <h4>sunset yellow (outermost)</h4>
 <div style="display: flex">
@@ -193,46 +196,10 @@ Specifically, I would suggest the two outer colors:
 
 </div>
 
-<h3 id="general-theme">General Theme<a class="headerlink" href="#general-theme" title="Permanent link">&para;</a></h3>
-<p>The general theme settings for the platform now reflect these two colors as <strong>primary</strong> (sea-blue) and <strong>secondary</strong> (sunset-yellow) <strong>Brand colors</strong>.</p>
-<p>They can be changed in <code>Administration / Appearance / Themes / Theme Settings</code></p>
-<h3 id="section-dividers">Section Dividers<a class="headerlink" href="#section-dividers" title="Permanent link">&para;</a></h3>
-<p>Secondly, the section dividers can now accept custom CSS classes that also reflect the Brand colors, and most importantly, make them easier to create and maintain.</p>
-<p>The HTML code for the section dividers can now be reduced to this:</p>
-<pre><code class="html">&lt;h5 class=&quot;section-divider&quot;&gt;Variables&lt;/h5&gt;
-</code></pre>
-
-<p>instead of that:</p>
-<pre><code class="html">&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;h5 style=&quot;background-color: #049fcd; color: #ffffff;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;nolink&gt;Variables&lt;/nolink&gt;&lt;/b&gt;&lt;/h5&gt;&lt;p&gt;&lt;/p&gt;
-</code></pre>
-
-<p>which means getting rid of all the in-line CSS and just <strong>assigning one of two classes</strong> in the usual HTML edit box:</p>
-<ul>
-<li><code>section-divider</code> for the general dividing elements (using CN sea-blue)</li>
-<li><code>section-assignment</code> for the "Assignments" dividing elements (using CN sunset-yellow)</li>
-</ul>
-<p>They are appropriately styled with spacing etc. from within our theme's SCSS file.
-Design changes for the dividers can now be made centrally in the <a href="https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker"><strong>Maker</strong> Theme settings</a> in the "Advanced" tab inside the second SCSS box.</p>
-<p>Currently:</p>
-<pre><code class="css">.section-divider,
-.section-assignment {
-    color: #fff;
-    font-weight: bold;
-    margin: 30px 0 5px 0;
-    padding: 2px 0 2px 25px;
-}
-.section-divider {background-color: #0071BD;} // codingnomads seablue
-.section-assignment {background-color: #FBB03B;} // codingnomads sunsetyellow
-</code></pre>
-
-<p>With this color/style changes, spacing (padding, margin) etc. can be easily applied site-wide.</p>
-<p><strong>So, if we apply those classes on all dividers once, we can keep playing and improving the style site-wide
-without needing to go into every course separately, which makes keeping up-to-date and improving easier.</strong></p>
-<p>This is highly editable, so any color, spacing, ... changes can afterwards be done in one swoop <a href="https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker">here</a> (Advanced tab / second SCSS box).</p>
-<h3 id="stop-automatic-linking">Stop Automatic Linking<a class="headerlink" href="#stop-automatic-linking" title="Permanent link">&para;</a></h3>
-<p>Since the <code>&lt;nolink&gt;</code> tags are <a href="https://docs.moodle.org/36/en/Nolink_tags">somewhat messy</a>, I decided to <a href="https://docs.moodle.org/24/en/Autolinking"><strong>disable Autolinking</strong></a> for the Python Online course.</p>
-<p>I think it's more a pain-in-the-ass than helpful.</p>
-<p>Autolinking can be <strong>disabled site-wide</strong>, which I would suggest to do, but I kept it for the Python course for now to not mess something up that might be used by someone else already.</p>
+<p>The general theme settings for our brand communication could reflect these two colors as <strong>primary</strong> (sea-blue) and <strong>secondary</strong> (sunset-yellow) brand colors.</p>
+<h2 id="fonts">Fonts<a class="headerlink" href="#fonts" title="Permanent link">&para;</a></h2>
+<p>What is the font that is currently used in the CodingNomads logo?</p>
+<p>What is the font used in the beginning of video recordings? (I'd like to suggest course creators to use that same font if they make slides)</p>
               
             </div>
           </div>
