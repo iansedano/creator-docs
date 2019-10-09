@@ -100,7 +100,7 @@ That said, you can always loosen it up and increase retention and enjoyment for 
 
 When using slides for any of your videos please use our [slides template](https://docs.google.com/presentation/d/1TDzErFmyVnDkRoyWrotm8rE3Yy-yikzUFmeV0mCD4Dk/edit?usp=sharing) and clone your slides from it. We suggest doing this in order to keep the style consistent across multiple courses.
 
-<a href="https://docs.google.com/presentation/d/1TDzErFmyVnDkRoyWrotm8rE3Yy-yikzUFmeV0mCD4Dk/edit?usp=sharing" target="_blank"><img src="imgs/slide-section.png" alt="Slide Example Screenshot">
+<a href="https://docs.google.com/presentation/d/1TDzErFmyVnDkRoyWrotm8rE3Yy-yikzUFmeV0mCD4Dk/edit?usp=sharing" target="_blank"><img src="imgs/slide-section.png" alt="Slide Example Screenshot"></a>
 
 Stick with this basic design. It'll help your students to focus on the essential information.
 
