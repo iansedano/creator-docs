@@ -74,6 +74,8 @@
         
             <li><a class="toctree-l3" href="#headings">Headings</a></li>
         
+            <li><a class="toctree-l3" href="#links">Links</a></li>
+        
             <li><a class="toctree-l3" href="#code-and-code-blocks">Code And Code Blocks</a></li>
         
             <li><a class="toctree-l3" href="#example-markdown-rendering">Example Markdown Rendering</a></li>
@@ -181,6 +183,11 @@
 <li><strong>Sub-Headings:</strong> Use <code>&lt;h4&gt;</code> (or <code>####</code> in Markdown) as your page content's sub-headings.</li>
 </ul>
 <p>The course content will be integrated in our platform, and higher-level headings are reserved for course and page headings, which need to be entered in a different entry form.</p>
+<h2 id="links">Links<a class="headerlink" href="#links" title="Permanent link">&para;</a></h2>
+<p>We want to make sure that all links open up in a new tab when clicked, to avoid students from accidentally navigating away from the course. Markdown syntax doesn't have an equivalent to HTML's <code>target="_blank"</code> which would allow to open links in new tabs. Therefore, please use real HTML for creating links in your Markdown docs:</p>
+<pre><code class="html">This is &lt;a href=&quot;http://your.url&quot; target=&quot;_blank&quot;&gt;a link&lt;/a&gt;
+</code></pre>
+
 <h2 id="code-and-code-blocks">Code And Code Blocks<a class="headerlink" href="#code-and-code-blocks" title="Permanent link">&para;</a></h2>
 <p>Code snippets wrapped in single backticks as well as code blocks with triple-backticks are correctly rendered by the platform's Markdown engine.</p>
 <h2 id="example-markdown-rendering">Example Markdown Rendering<a class="headerlink" href="#example-markdown-rendering" title="Permanent link">&para;</a></h2>
