@@ -17,6 +17,14 @@ As a small deviation from keeping your content as platform-agnostic as possible,
 
 The course content will be integrated in our platform, and higher-level headings are reserved for course and page headings, which need to be entered in a different entry form.
 
+## Links
+
+We want to make sure that all links open up in a new tab when clicked, to avoid students from accidentally navigating away from the course. Markdown syntax doesn't have an equivalent to HTML's `target="_blank"` which would allow to open links in new tabs. Therefore, please use real HTML for creating links in your Markdown docs:
+
+```html
+This is <a href="http://your.url" target="_blank">a link</a>
+```
+
 ## Code And Code Blocks
 
 Code snippets wrapped in single backticks as well as code blocks with triple-backticks are correctly rendered by the platform's Markdown engine.
