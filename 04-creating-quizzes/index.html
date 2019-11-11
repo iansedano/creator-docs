@@ -86,11 +86,7 @@
         
             <li><a class="toctree-l3" href="#question-behavior">Question Behavior</a></li>
         
-            <li><a class="toctree-l3" href="#feedback">Feedback</a></li>
-        
-            <li><a class="toctree-l3" href="#open-ended-text-questions">Open-Ended Text Questions</a></li>
-        
-            <li><a class="toctree-l3" href="#regex-short-answer-questions">Regex short-answer questions</a></li>
+            <li><a class="toctree-l3" href="#feedback-on-student-answers">Feedback On Student Answers</a></li>
         
         </ul>
     
@@ -169,42 +165,22 @@
             <div class="section">
               
                 <h1 id="creating-quizzes">Creating Quizzes<a class="headerlink" href="#creating-quizzes" title="Permanent link">&para;</a></h1>
-<p>Click on "Save and display"</p>
+<p>You can add a Quiz resource like any other resource in your course by clicking on <code>Add Resource</code> and selecting <code>Quiz</code>. Click on "Save and display" to create the Quiz.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n3mC2rgdLQs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><strong>Note</strong>: Creating a Quiz does not yet create any questions, this is a separate step that should be completed in the Question Bank.</p>
 <h2 id="use-the-question-bank">Use the Question Bank<a class="headerlink" href="#use-the-question-bank" title="Permanent link">&para;</a></h2>
 <p>Create and manage questions using the Moodle <strong>Question Bank</strong>.</p>
 <p><a href="https://platform.codingnomads.co/learn/question/edit.php?courseid=8&amp;cat=529%2C238">https://platform.codingnomads.co/learn/question/edit.php?courseid=8&amp;cat=529%2C238</a></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XrOGYIu5O34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <h3 id="create-and-use-categories">Create And Use Categories<a class="headerlink" href="#create-and-use-categories" title="Permanent link">&para;</a></h3>
 <p>These help to keep questions searchable and make it easier to add and edit questions related to a specific quiz.</p>
 <h2 id="question-behavior">Question Behavior<a class="headerlink" href="#question-behavior" title="Permanent link">&para;</a></h2>
 <p>We want students to receive immediate feedback if possible. Therefore, we encourage to use <strong>"Adaptive Mode"</strong> (the default) for quiz questions. You can see other possible modes in Moodle's docs on <a href="https://docs.moodle.org/37/en/Question_behaviours">Question behaviour</a>.</p>
 <p><strong>Note:</strong> Please use other modes only if you have a good and justified reason to do so. Chat me up with those reasons before getting started.</p>
-<h2 id="feedback">Feedback<a class="headerlink" href="#feedback" title="Permanent link">&para;</a></h2>
+<h2 id="feedback-on-student-answers">Feedback On Student Answers<a class="headerlink" href="#feedback-on-student-answers" title="Permanent link">&para;</a></h2>
 <p>Students should be able to "check" their answers to questions and receive feedback. For this, you will need to fill out the "Feedback" blocks when creating a question.</p>
-<h2 id="open-ended-text-questions">Open-Ended Text Questions<a class="headerlink" href="#open-ended-text-questions" title="Permanent link">&para;</a></h2>
-<p>The suggested question type to use for questions that are designed to prompt students to think and formulate their own answers, is <a href="https://github.com/gbateson/moodle-qtype_essayautograde"><strong>Essay (autograded)</strong></a>.</p>
-<p><strong>Set the stage:</strong> Use <a href="https://platform.codingnomads.co/learn/question/edit.php?courseid=8&amp;cat=530%2C238&amp;qpage=0&amp;category=530%2C238&amp;qbshowtext=0&amp;recurse=0&amp;showhidden=0">this information-question</a> as the first question of each open-ended quiz you create. It will signify to students that they are entering exploration mode, as well as provide useful tips and a link to our forum.</p>
-<h3 id="required-settings">Required Settings<a class="headerlink" href="#required-settings" title="Permanent link">&para;</a></h3>
-<p>In order to use the default auto-grading, specify a minimum number of characters to be used. This needs to be &gt;0 (e.g. <code>1</code>). If this setting is left at <code>0</code>, then students will receive an "Incorrect" mark when submitting any written content.</p>
-<h3 id="additional-settings">Additional settings<a class="headerlink" href="#additional-settings" title="Permanent link">&para;</a></h3>
-<p>You can specify keywords etc. to give students automated feedback.</p>
-<h2 id="regex-short-answer-questions">Regex short-answer questions<a class="headerlink" href="#regex-short-answer-questions" title="Permanent link">&para;</a></h2>
-<p>These work great for giving more flexibility to students' answers.</p>
-<p><a href="https://docs.moodle.org/37/en/Regular_Expression_Short-Answer_question_type">https://docs.moodle.org/37/en/Regular_Expression_Short-Answer_question_type</a></p>
-<p>You can:</p>
-<ul>
-<li>
-<p>write Regex to specify a <strong>limited set of answers</strong>:</p>
-<p>Q: Write one keyword that is part of a Python conditional
-A: (if|elif|else)</p>
-</li>
-<li>
-<p>write Regex to <strong>exclude</strong> a wide set of wrong answers</p>
-<p>Q:</p>
-</li>
-</ul>
-<p><strong>Note:</strong> The plugin is designed to prevent <strong>correct answers</strong> that have endless possibilities - therefore the use of Regex for correct answers is limited.</p>
-<p>This is purposefully designed like that.</p>
-<p>The whole power of regex is available to you to identify <strong>incorrect answers</strong>, and you need to be more specific with correct answers.</p>
               
             </div>
           </div>
