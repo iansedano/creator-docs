@@ -97,7 +97,7 @@ The Bootstrap alert boxes also help to visually break up a long piece of content
 
 Paste the above HTML snippet into the HTML editor of your resource. Next, switch back to the WYSIWYG editor view and copy-paste your resource links into the body of the jumbotron. Style them as a bullet point list. Result:
 
-![resources](resources.png)
+![resources](imgs/resources.png)
 
 ### Tasks
 
