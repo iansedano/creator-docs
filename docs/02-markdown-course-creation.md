@@ -41,14 +41,8 @@ The above Markdown text will correctly render in our platform like so:
 
 ## Text Editor Choice
 
-Due to an overlap of a moodle theme we are using, it is currently not possible to individually change the text editor preference. Therefore, you can't easily switch to Markdown input yourself. We aim to get that fixed, but for now please contact a site admin to change the default editor site-wise when you'll be adding your content to the site. After you finish, we will need to change it back.
+You can change your default text editor in your user profile's cogwheel drop-down `Editor Preferences`. Choose `Plain Text` to be able to select the Markdown option.
 
 It will remember the Plain Text Editor type you used to initially create a page, and when editing the page it will re-open with the Markdown editor selected.
 
-## Changing The Default Text Editor
-
-**Note:** Currently this needs to be done by a site administrator:
-
-![Screenshot with instructions on how to change the default editor order](imgs/editor_choice_change_order.png)
-
-![Select 'Markdown format' in the editor's drop-down menu](imgs/editor_choice_select_markdown.png)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GeHyN-TZ5JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

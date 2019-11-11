@@ -14,11 +14,17 @@ Attempt to follow these three simple steps even for short sections. Our brain pr
 
 **Use parallel structure for lists and headings:** Clarity is important for technical writing. Always use parallel structure when creating list items as well as headings. Parallel structure means to use the same sentence structure for each new piece of information. E.g. I wrote all the headings on this page as nouns. Each paragraph that introduces new information begins with a verb and attempts to convey the main idea of that paragraph. Parallel structure is very powerful in making your content look well structured, it can help yourself to plan out a topic clearly, and it helps your students to easier absorb the information.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EEd28yNXe5E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Use a flat TOC structure:** Aim on using main headings and one additional level of sub-headings, not more. To correctly integrate with our platform, that means using `<h3>` headings as your main headings, and `<h4>` as sub-headings.
 
 **Use text blocks:** Each paragraph should have some visible body to it. If a text contains multiple paragraphs that consist of only one or two sentences the text may at first sight appear less professional. No need to be too strict about this, but something to keep in mind. On the other hand, also avoid making your paragraphs _too_ blocky.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C01jEn0YZP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 **Use visual aids:** Using graphs, code blocks, or also fun memes and images can help to ligthen the information load on your students. Technical content can get overwhelming. You're encouraged to loosen it up and give a break to your readers' eyes by introducing visual aids. If a text section seems long and dry to yourself, it will also seems so to your students. Pop in some images to change the visual pace.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yYBcETEXFBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Use list and paragraph headlines:** Bolded words or short sentences at the beginning of a list item or a paragraph help to introduce a topic. They guide your students' eyes and assist in easier absorbing relevant information. Always try to keep them in parallel structure.
 
@@ -47,3 +53,5 @@ Attempt to follow these three simple steps even for short sections. Our brain pr
 **Show that you're supportive:** Programming topics are tough and often confusing for newcomers. It can easily feel overwhelming, even after making some progress, when the door opens up wider and ever more information starts flooding in. Try to help your students by giving them a stable ground to stand on. Be supportive and encourage them to keep learning.
 
 **Feel free to have some fun!** We want our students to enjoy our courses as much as possible and laugh as often as possible! :)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7TtIHUrcuzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

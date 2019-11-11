@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Martin Breuss">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Course Creation Basics - CN Course Creator Docs</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Course Creation Basics";
+    var mkdocs_page_input_path = "00-basics.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> CN Course Creator Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Overview</a>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Course Creation Basics</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#course-creation-basics">Course Creation Basics</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#read">Read</a></li>
+        
+            <li><a class="toctree-l3" href="#watch">Watch</a></li>
+        
+            <li><a class="toctree-l3" href="#code">Code</a></li>
+        
+            <li><a class="toctree-l3" href="#reflect">Reflect</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#how-to-duplicate-a-resource">How To Duplicate a Resource</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../01-content-guidelines/">Content Creation Guidelines</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../02-markdown-course-creation/">Using Markdown</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../03-course-completion/">Course Completion Settings</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../04-creating-quizzes/">Creating Quiz Resources</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../05-quiz-question-types/">Quiz Question Types</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../06-creating-labs/">Creating Lab Challenges</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../07-creating-videos/">Creating Video Lessons</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../08-forum/">CodingNomads Forum</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../09-publishing-pipeline/">Publishing Pipeline</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../10-platform-style/">Style Guide</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../11-snippets-reference/">Style Snippets Quick Reference</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">CN Course Creator Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Course Creation Basics</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/CodingNomads/creator-docs/edit/master/docs/00-basics.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="course-creation-basics">Course Creation Basics<a class="headerlink" href="#course-creation-basics" title="Permanent link">&para;</a></h1>
+<p>This page introduces you to the basic ideas around creating courses for CodingNomads. In short, we want our courses to build on mixing the following four concepts:</p>
+<ol>
+<li>Read</li>
+<li>Watch</li>
+<li>Code</li>
+<li>Reflect</li>
+</ol>
+<p>Let's talk in more detail how you can implement these four concepts.</p>
+<h2 id="read">Read<a class="headerlink" href="#read" title="Permanent link">&para;</a></h2>
+<p>Written course material gives students a structured and searchable way to gain knowledge. While for many learners it may not be the most engaging way to learn, it serves its purpose in introducing concepts and making it easy to go back to when needing to fill memory gaps.</p>
+<p>We have <a href="../01-content-guidelines/">guidelines for technical writing</a> that you should follow when creating the written materials for your course. In short: be clear and structured, and have fun.</p>
+<h2 id="watch">Watch<a class="headerlink" href="#watch" title="Permanent link">&para;</a></h2>
+<p><strong>Walkthrough:</strong> Show every new concept at least once before students are meant to complete it by themselves. Screencast walkthroughs are great for this exposure. Having seen the challenge completed once makes it much easier for students to learn.</p>
+<h2 id="code">Code<a class="headerlink" href="#code" title="Permanent link">&para;</a></h2>
+<p><strong>Project-Oriented:</strong> Students learn best through building projects. Our brains only remember new concepts when there's a compelling reason to do so. Build well-designed projects gives students both the justification on <em>why</em> to learn something new, as well as satisfaction on completing it. This is why we aim to build our courses project-oriented.</p>
+<p><strong>Capstone Project:</strong> The final capstone project of a course allows students to employ their creativity and their own interests. A good capstone project is framed well and allows students to bring together all the knowledge they gained throughout the course. At the same time it avoids hand-holding students through it, and gives them enough freedom to customize it towards their personal interests. We want to send our students off with a great project to put on their portfolio, as well as with the tools and mindset that they are able to create and accomplish their ideas by themselves.</p>
+<h2 id="reflect">Reflect<a class="headerlink" href="#reflect" title="Permanent link">&para;</a></h2>
+<p><strong>Quiz Checkpoints:</strong> Interlaced with the written and video course content, students encounter quizzes that serve as checkpoints for themselves. Answering quiz questions forces them to synthesize the content they previously passively consumed. It also allows them to understand whether they got a grip on the previous section's content, or whether they will have to study it some more.</p>
+<h1 id="how-to-duplicate-a-resource">How To Duplicate a Resource<a class="headerlink" href="#how-to-duplicate-a-resource" title="Permanent link">&para;</a></h1>
+<p>Starting with our copied skeleton course resource, you can often simply duplicate a resource and then replace the content. This is the recommended way of building your course, since it keeps important settings intact. The following video shows you how to duplicate an existing resource in our platform:</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fSOzDZjKlIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../01-content-guidelines/" class="btn btn-neutral float-right" title="Content Creation Guidelines">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href=".." class="btn btn-neutral" title="Overview"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/CodingNomads/creator-docs/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../01-content-guidelines/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

@@ -4,23 +4,6 @@
 
 ---
 
-- Objective
-- Where Can I Change the Design?
-- Components
-    * Tags (Dividers)
-        - Section Dividers
-        - Assignment Dividers
-    * Headings
-    * Resources
-    * Tasks
-    * Quotes
-    * Code Blocks
-- Formatting
-    * Code Blocks
-    * Code font size
-    * Documentation font size
-
-
 ## Objective
 
 We want **unified and adaptable styling** across all courses on the whole site.
@@ -30,7 +13,7 @@ We want **unified and adaptable styling** across all courses on the whole site.
 - **Centralized**: All custom styling should be done _only_ through the SCSS in Maker Theme
 - **Maintainable**: Through editing styles centrally we can avoid unnecessary effort and potential misalignment
 
-## Where Can I Change the Design?
+## Where Can I Add To The Site's CSS?
 
 You can access the [**Maker** Theme settings](https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker) at the following platform-internal path:
 
@@ -44,20 +27,20 @@ Design changes for components as well as HTML elements in general can be made ce
 
 ## Components
 
-Components to use when creating and editing courses. Add new components in this section.
+Components to use when creating and editing courses.
 
 ### Section Tags
 
 To help students stay on track, add section tags in the "Summary" of each section (Edit Topic)
 
 ```html
-<h3 class="week week-1">Week 1 - Part 1</h3>
+<h3 class="week week-1">Section 1</h3>
 ```
 
 Different sections can have different styles, so add also the `week-#` class appropriately, e.g.:
 
 ```html
-<h3 class="week week-3">Week 3 - Part 3</h3>
+<h3 class="week week-2">Section 2</h3>
 ```
 
 ### Dividers
@@ -90,15 +73,19 @@ Use Editor-provided headings levels:
 
 ### Information
 
-Use the Bootstrap alert box `alert alert-warning` to include information about upcoming course sections. E.g.: "Just read over this for now, we'll dig deeper into it in a later section."
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TSSkUdmHl2I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Use the Bootstrap alert box `alert alert-warning` for criticial information and gotchas, E.g.: "Just read over this for now, we'll dig deeper into it in a later section." Use `alert alert-info` to include additional information e.g. on external resources that can lead students further onwards.
 
 ```html
 <div class="alert alert-warning" role="alert">
-  <strong>Note:</strong> Infos about upcoming course sections.
+  <strong>Note:</strong> Take care to avoid xyz.
 </div>
 ```
 
-The alert box can also be used to help visually break up a long piece of content by highlighting an important section.
+The Bootstrap alert boxes also help to visually break up a long piece of content by highlighting an important section.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3REbh9xr5lE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Resources
 
@@ -154,18 +141,3 @@ Wrap code snippets into triple-backticks:
 ### In-line Code
 
 There is no button for marking a section of text as inline code. Therefore, you need to switch to the _HTML editor_ and wrap in-line code snippets into `<code>your_code()</code>` tags.
-
----
-
-## Formatting
-
-Collection of style changes and explanations regarding why we did these changes.
-
-### Increased Code Font Size
-
-Slightly increased code font-size: `code {font-size: 1.1em;}`. It was hard to read the code before.
-
-
-### Increased Documentation Font Size
-
-General font-size was also relatively small, so we slightly increased it.
