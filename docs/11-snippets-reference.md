@@ -2,17 +2,15 @@
 
 This is a quick reference to the HTML snippets used in our courses to build recurring elements. Most of them are based on Bootstrap. You can read more on the relevant Bootstrap classes by clicking the snippets title.
 
-## [Topic Buttons](https://getbootstrap.com/docs/4.0/components/buttons/)
+## [Section Tags](https://getbootstrap.com/docs/4.0/components/buttons/)
 
 Blue:
 
 ```html
 <div class="d-flex flex-row-reverse">
-
-<span class="badge badge-primary rounded">
-Section 1
-</span>
-
+  <span class="badge badge-primary rounded">
+      Section 1
+  </span>
 </div>
 ```
 
@@ -20,25 +18,23 @@ Yellow:
 
 ```html
 <div class="d-flex flex-row-reverse">
-
-<span class="badge badge-warning rounded">
-Section 6
-</span>
-
+  <span class="badge badge-warning rounded">
+    Section 6
+  </span>
 </div>
 ```
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/evwWenaThmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Tags (Dividers)
+## Section Dividers
 
-**Section Dividers (blue):**
+Section Dividers (blue):
 
 ```html
 <h5 class="section-divider">Section Mini-Heading</h5>
 ```
 
-**Assignment Dividers (yellow):**
+Assignment Dividers (yellow):
 
 ```html
 <h5 class="section-assignment">Assignments</h5>
@@ -50,7 +46,7 @@ Use Markdown for headings, and start your highest-level at `<h3>` (or `###` in M
 
 ## Color-Highlighted Boxes
 
-**Information Box (blue):**
+Information Box (blue):
 
 ```html
 <div class="alert alert-info" role="alert">
@@ -58,7 +54,7 @@ Use Markdown for headings, and start your highest-level at `<h3>` (or `###` in M
 </div>
 ```
 
-**Note Box (yellow):**
+Note Box (yellow):
 
 ```html
 <div class="alert alert-warning" role="alert">
@@ -74,21 +70,13 @@ Use Markdown for headings, and start your highest-level at `<h3>` (or `###` in M
 </div>
 ```
 
-## Tasks
-
-```html
-<div class="jumbotron tasks">
-<h1>Tasks</h1>
-</div>
-```
-
 ## Quotes
 
 ```html
-<div class="quote-card">
-    <p>Quote goes here</p>
-    <cite><a href="RESOURCE_URL">resource name</a></cite>
-</div>
+<blockquote class="blockquote text-right">
+  <p class="mb-0">insert quote text.</p>
+  <footer class="blockquote-footer">who <a href=""><cite title="source title">source title</cite></a></footer>
+</blockquote>
 ```
 
 ## Code Blocks

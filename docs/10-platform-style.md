@@ -20,7 +20,7 @@ Additional custom components you can use when creating and editing courses.
 
 The following adaptations should be used to make the course overview page styled consistently and easier readable for students.
 
-#### 1. Dividers
+#### 1. Section Dividers
 
 To improve the visual flow in a course overview, you can add colored bars to break up the course content.
 
