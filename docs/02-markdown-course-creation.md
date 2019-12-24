@@ -44,6 +44,7 @@ The above Markdown text will correctly render in our platform like so:
 You can change your default text editor in your user profile's cogwheel drop-down `Editor Preferences`. Choose `Marklar` for the easiest Markdown editing functionality.
 
 The **Marklar** editor allows you to:
+
 * **write** your content in Markdown
 * **preview** with a simple button click
 * **add images** through a straightforward file upload
