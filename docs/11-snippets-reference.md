@@ -42,7 +42,7 @@ Assignment Dividers (yellow):
 
 Use Markdown for headings, and start your highest-level at `<h3>` (or `###` in Markdown). Avoid applying additional styling in the platform internal editor or through custom HTML classes and CSS.
 
-## Color-Highlighted Boxes
+## [Color-Highlighted Alert & Information Boxes](https://getbootstrap.com/docs/4.0/components/alerts/)
 
 Information Box (blue):
 
@@ -64,11 +64,11 @@ Note Box (yellow):
 
 ```html
 <div class="jumbotron resources">
-<h1>Resources</h1>
+  <h1>Resources</h1>
 </div>
 ```
 
-## Quotes
+## [Quotes](https://getbootstrap.com/docs/4.0/content/typography/#blockquotes)
 
 ```html
 <blockquote class="blockquote text-right">
@@ -77,7 +77,7 @@ Note Box (yellow):
 </blockquote>
 ```
 
-## Code Blocks
+## [Code Blocks](https://help.github.com/en/github/writing-on-github/creating-and-highlighting-code-blocks)
 
 Use Markdown to create code blocks.
 
@@ -85,10 +85,12 @@ Use Markdown to create code blocks.
     print("your code here")
     ```
 
-## In-Line Code
+## [In-Line Code](https://daringfireball.net/projects/markdown/syntax#code)
 
 Use Markdown to create in-line-code snippets:
 
-  `my_funct()`
+```
+`my_funct()`
+```
 
 In the platform's **HTML editor** you can create them like this: `<code>your_code_here()</code>`
