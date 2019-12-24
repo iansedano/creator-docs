@@ -1,6 +1,6 @@
 # Component Snippets
 
-This is a quick reference to the HTML snippets used in our courses to build recurring elements. Most of them are based on Bootstrap. You can read more on the relevant Bootstrap classes by clicking the snippets title.
+This is a quick reference to the HTML snippets used in our courses to build recurring elements ([longer description here](10-platform-style.md)). Most of them are based on Bootstrap. You can read more on the relevant Bootstrap classes by clicking the snippets title.
 
 ## [Section Tags](https://getbootstrap.com/docs/4.0/components/buttons/)
 
