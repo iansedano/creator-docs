@@ -43,6 +43,8 @@ To improve the visual flow in a course overview, you can add colored bars to bre
 
 Section tags in the "Summary" of each section help students stay on track and visually bundle multiple sections logically together.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/evwWenaThmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ```html
 <h3 class="week week-1">Section 1</h3>
 ```
