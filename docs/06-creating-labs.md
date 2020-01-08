@@ -33,7 +33,7 @@ Write the necessary code to display "Hello World!" 5 times.
 print("Hello World! " * 5)
 ```
 
-After finishing the task, they can push it back up to their GitHub repo and thus keep the instructions and the code side-by-side. This makes it easy for their mentor to give them feedback on the task.
+After finishing the task, they can push it back up to their GitHub repo and thus keep the instructions and the code side-by-side. This makes it easy for their mentor to give them feedback on the lab.
 
 # Hosting And Accessing Labs
 
