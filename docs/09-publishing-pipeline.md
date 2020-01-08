@@ -12,6 +12,10 @@ We might set up a Trello board to track courses through the different phases of 
 * **Published:** 🎉 Well done! Time for a break!
 * **Feedback & Updates:** No course is ever _really_ finished. In this phase we will apply the feedback we receive from active students to continually improve the course content (course author)
 
-## Course Maintenance and Updates
+## Note On Course Maintenance And Updates
 
-**Note:** Continually improving a course is a lot of work. Eventually we should have someone who works on just that.
+Iteration is at the heart of everything in course development. As the course creator you will have certain blind spots that only students that go through the learning experience will uncover. This is unavoidable and an important part of the course creation process.
+
+That is why we consider this initial phase of "course maintenance and updates" still as a part of the course creation. As a course creator, you are therefore required to maintain and update your course during the beta phase while the first 10 beta students learn from your material and send us their feedback.
+
+Responding to the suggestions of our beta students finally brings your excellent course content under real-world learner testing (RWLT and thereby helps to polish it to perfection.

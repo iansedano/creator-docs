@@ -142,34 +142,68 @@ Stick with [this basic design](https://docs.google.com/presentation/d/1TDzErFmyV
 
 ---
 
-# tips
-- when there's only coding, don't talk anything
-    - helpful for editing when there is no sound
-- easy to speed it up in editing
-- at the end quickly explain what you did
-- avoid background noise
-- avoid 'ahems' etc. - it feels much more professional
-- mostly use screenshares, you can also sometimes show your face if you want to
-- be explicit about when there are mistakes (what time etc.) - quicker to cut them out when editing
-    - undo to get back to working version
-    - when realizing that explanation doesn't go too well
+# Video Creation Tips
 
-- title of videos (saved filename)
-- add a README for notes about editing
-- note when there should be a screen overlay (e.g. mis-naming when talking)
+Below are a selection of tips and tricks to keep in mind to amp up your video creation game and assure high-quality, educational screencasts.
 
-- when recording yourself, make sure your recording setup and table is stable, so that the camera doesn't move
-- at a minimum, use headphones and a headphone mic
-- if you have a better microphone, please use that instead
+## Tips For Better Quality Screencasts
 
-- upload the finished recordings to a google photos folder for sharing
+**Use A Stable Table**: Especially if you use your computer camera to record yourself talking, it is necessary that the setup is stable and doesn't wobble around.
+
+**Zen Screen**: To help students focus and make you look more professional, avoid any screen clutter. You don't want distracting wallpapers or a cluttered Desktop, too many apps in your Dock, notifications to show up during recording (set the mode to "Do not disturb") etc. Cultivating a zen screen for your video recordings also makes inconsistencies between different videos less likely.
+
+**Timeless Videos**: Avoid showing aspects of your OS that are highly dateable. That includes e.g. the MacOS dock, Windows Start Menu etc., as well as close buttons and of course the clock with date and time. The easiest way to avoid showing dateable items, is to use the full-screen mode of your text editor. If you need to show your desktop, set your clock to analogue or remove it entirely.
+
+**Relaxed Code**: Give your viewers some time to see the code you just typed. Pausing for a moment helps students to absorb, type, or pause the video in the right spot without getting stressed. It helps to see the code for a few seconds before moving on.
+
+**Content-Focus**: Minimize intro times and blabbering and talk about your the content right away. Students are here to learn effectively. Occasionaly jokes and break-out moments are encouraged and really lighten the load, but make sure that overall your videos are effective and content-focused.
+
+**Large Fonts**: Use a large font in your editor. Bump up the font size. Usually, you will focus only on a small section of code at a time. Showing that specific section in a large font is absolutely preferrable to having a cluttered screen with lots of code in a small font.
+
+**Crisp Text**: Avoid blurry text. This ties in with using a high resolution that allows you to zoom into specific sections of your code when editing the video.
+
+**High-Contrast Color Schemes**: We want our videos to be as accessible as possible. Use high-contrast color schemes in your editor to make sure the code is as legible as possible.
+
+**Avoid "Smart Quotes"**: Don't use unicode "smart quotes", they cause syntax errors. Instead make sure that you use plain quotes in your code examples, also when creating them on slide decks.
+
+**Keep Your Errors**: A tutorial teaches two things: the topic of the tutorial, as well as how to approach solving problems. If it isn't too distracting, keep the mistakes and syntax errors you make in where it makes sense and use them as an opportunity to teach your thought process for debugging. Your viewers will appreciate this as a learning opportunity.
+
+**Recap Your Videos**: Remember the 3-step teaching process and make sure that you intro and recap the topics of your screencasts.
+
+**Avoid Swearing**: Don't swear.
+
+## Tips That Allow Viewers To Follow-Along Easier
+
+**Orientation**: Avoid switch tabs, windows, and applications too quickly. State clearly where you are and what you are doing. Context is very important to help absorb new information.
+
+**Point To Your Code**: Help your viewers to keep track of what you are talking about by circling the code you want to point to with your cursor. You can enlarge the cursor in your OS's accessibility settings.
+
+**Avoid Shortcuts**: Use your cursor and menus to create new files etc. Keyboard shortcuts are confusing when you can't see what has been clicked. If you _must_ use keyboard shortcuts, limit it to common ones and [use software to display the shortcut on screen](07-creating-videos.md#additional-software). Preferrably you do everything on screen so that your viewers can follow along.
+
+**Scroll For Navigation**: Show your scrolling when navigating within a file. Avoid jumping around or editing out the scrolling. This, again, makes it easier for viewers follow along and stay on track with your explanations.
+
+**Avoid (Background) Noise**: Find a quiet spot for your recording. Audio quality is paramount for screen recordings. Avoid construction outside, pets, ceiling fans, creaky floors and chairs, as well as human-made distracting noises, such as coughing, mouth noises, etc.
+
+**Avoid Filler Words**: Attempt to cut down on using filler words, such as (ahem, uhm, like, so, you know, etc.) Some can be edited-out, but if you use them frequently, it is a ginormous effort to do so. Avoiding to use filler words makes you appear much more competent and makes your content easier to follow.
+
+**Avoid Visual Distractions**: If you are recording yourself speaking, use a neutral background that isn't distracting for your viewers.
+
+**Record Small Chunks**: Recording smaller chunks will keep your quality high. When recording too much in one take, you might get tired and inattentive without noticing it.
+
+**Tutoring Instead Of Presenting**: Imagine that you are speaking to only one person. Students should feel like they are in a mentor-student relationship, rather than sitting in a room full of people in an auditorium or at a conference.
 
 
-* stable setup, avoid background noise
-* to make editing easier:
-    - use zoom, use pause
-    - don't talk while coding lengthily if it gets you off track, then better explain when finished
-    - name file with the title of the video
-    - add notes in doc
-        * mistake to cut and their timestamps
-        * where screen overlay is needed and what should go on there
+## Tips For Easier Editing
+
+**Silence While Typing**: If you are typing a longer section of code that doesn't need explanation on-the-go, avoid talking while typing. The silence makes it easy to edit out or speed up when editing.
+
+**Title Your Files**: Use double-digit numbering in combination with the screencast topic's title for naming your video files, e.g.: `01_variables.mov`.
+
+**Clarify Mistakes During Recording**: When you realize that an explanation isn't working well or when you make a mistake you want to correct, first stop and mention that you'll redo this section. Then **pause** for a few seconds, **undo** what you did to get back to the start, **pause** again, and then **start again**. This helps to identify necessary edits and makes it easier to get good cuts.
+
+**Add Editing Notes**: Add a README file with notes for editing to your recorded screencasts. This document should mention:
+
+* At what timestamp in which video are mistakes--to quicker find and cut them when editing
+* When there should be a screen overlay (e.g. when accidentally mis-naming something while talking) and what should be on the screen overlay
+
+**Upload**: Upload the finished recordings to your dedicated shared folder to allow us to give you feedback and add necessary edits.
