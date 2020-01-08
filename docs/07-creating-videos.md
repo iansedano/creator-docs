@@ -8,6 +8,14 @@ This document will guide you in how to create video lessons for your course. Let
 * **Video Length:** 3-5 minutes is best, definitely stay below 10 minutes
 * **Tone:** Your friendly neighborhood coder
 
+## Didactic Structure
+
+Same as with your written content: follow the **3-step-teaching principle**:
+
+* **Intro**: Tell your students what information you will give them
+* **Main**: Give them that info
+* **Recap**: Tell them what information they just got
+
 ## Screencast Recording Tips
 
 * [Recording Screencasts - Hardware, Software, Dos and Don'ts (by Wes Bos)](https://syntax.fm/show/037/recording-screencasts-hardware-software-dos-and-don-ts)
@@ -52,11 +60,11 @@ If you are serious about creating quality screencasts, a good microphone is esse
 
 ### Additional Equipment
 
-**Mic Arm:** Sinc you will want to have your computer in front of you for coding, a mic arm can helpto place the mic where you need it for a good recording outcome.
+**Mic Arm:** Sinc you will want to have your computer in front of you for coding, a mic arm can help to place the mic where you need it for a good recording outcome.
 
 **Pop-Filter:** Plosives, such as "p", "t", "k", can come out surprisingly loud and disturbing in a spoken audio recording. A pop filter can help to reduce these pop sounds.
 
-**Headphones:** In case that you like to hear your voice through the recording, during he recording, a pair of headphones will be necessary. Use in-ear headphones to avoid any sound leaking from them into your recording.
+**Headphones:** In case that you like to hear your voice during the recording, a pair of headphones will be necessary. Use in-ear headphones to avoid any sound they produce from leaking into your recording.
 
 **Audio Foam:** Using audio foam can reduce room echo. If you have a small room with fabric, such as a walk-in closet, that can also work as an uncomplicated alternative.
 
@@ -65,12 +73,40 @@ If you are serious about creating quality screencasts, a good microphone is esse
 
 # Software
 
+Most of your videos will be **screen recordings**. The important part to remember is that we want you to record both your video as well as audio in the **highest resolution** that makes sense. Large files are not a problem, and having a high video and audio quality allows for more precise editing (e.g. code zooms when necessary) without compromising the viewing experience. Below is a list of software solutions that help you with recording your screen while retaining video quality as well as your personal sanity:
+
+* **QuickTime Player** (MacOS): Comes with the OS and is a simple way to [get started](https://www.youtube.com/watch?v=fgBWvU3YNhM). **Price**: Free
+* [**iShowUInstant**](https://shinywhitebox.com/ishowu-instant) (MacOS): Allows to record specific windows and even set the size of a recording screen. Easy to start/pause/stop recordings. Low-cost option that makes already improves your screen recording experience. _(I, Martin, use this one. Happy to answer questions about it)_ **Price**: $24
+* [OBS Studio](https://obsproject.com/) (MacOs, Windows, Linux): Free and Open-Source software for video recording and live streaming. Check out these tutorials [for Windows](https://www.youtube.com/watch?v=QCpuTSFVohQ) or [for Linux](https://www.youtube.com/watch?v=PBmOEaRgRas) **Price**: Free
+* [Screen Flow](https://www.telestream.net/screenflow/) (MacOs): Professional screen recording software with a higher price tag and more features. **Price**: $129
+* [Camtasia](https://www.techsmith.com/video-editor.html) (MacOS, Windows): The biggest and baddest (but in a good way). Includes a full-featured and easy-to-use editing studio as well. Haven't used it myself, but heard good things about it. Probably overkill, though, unless you're really into that. **Price**: €269.05
+
+**Additional Software**
+
+* [**KeyCastr**](https://github.com/sdeken/keycastr) (MacOs): you can show key presses on screen, which helps viewers if you're using any keyboard shortcuts. The program allows you to display all key presses or only command keys, and is easy to toggle on and off.
+
+* [**Mousepose**](https://boinx.com/mousepose/overview/) (MacOs): allows to highlight your cursor to better show clicks and cursor movements on your recording. Alternatively, you can increase your cursor size through your operating system’s accessibility settings.
+
 # Recording
 
 ## Video Length
 
-**3-5 minutes:** Keeping your videos short helps both you and your students to stay on track. Aim for 3-5 minutes per video, and definitely stay below 10 minutes. If you are explaining a complex concept that requires more time, split it up in logical chunks that are each below 10 minutes.
+**3-5 minutes:** Keeping your videos short helps both you and your students to stay on track. Aim for 3-5 minutes per video, and definitely stay below 10 minutes. If you are explaining a complex concept that requires more time, split it up in logical chunks that are each below 10 minutes. Keeping our students engaged is paramount, so we want to give them the sense of achievement and completion when finishing a section as often as possible. Our brains are also much better at processing small chunks of information, and it's easier for students to go back and revisit a topic if the videos are on-point, clear, and easy to digest.
 
+**Shorter videos:** You can also create shorter videos, e.g. to introduce a section in the course. Such videos can be only 1 minute long, yet help students to prepare for an upcoming new topic.
+
+## Screen Resolution And Framerate
+
+Always record in a **16:9 ratio** with a framerate of **60 FPS**. Don't go below 30 FPS since cursor movements start looking jumpy and are then difficult to follow. To assure the right screen ratio, either set your screen resolution to 16:9 and record fullscreen, or create a defined 16:9 area on your screen and record only that section. [Screen recording software](07-creating-videos.md#software) can greatly help with both aspects.
+
+**Fullscreen-Recording**: Your screen needs to be set to a 16:9 resolution (e.g. 720p HiDPI (= 1440p real resolution), 1080p or 720p). If your computer doesn't support a 16:9 screen resolution, there are a few hacks you can attempt:
+
+* **External Monitor**: If you have access to an external monitor with the right aspect ratio, this can be a great way to go. It also allows you to use your laptop for notes etc. while recording.
+* **Hidden Display Options**: On some MacBook models and MacOS versions, you can access additional resolutions with a small "trick". In your display preferences, hold "option" when clicking on "Scaled" to see previously hidden resolutions:
+
+![Unlocking additional screen resoluticcons](imgs/screen_res.gif)
+
+* [SwitchResX](https://www.madrau.com): In case the above doesn't work for you, SwitchResX is a tool that allows setting user-defined screen resolutions on MacOS. **Price**: $14
 
 # General Info
 
