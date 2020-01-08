@@ -90,9 +90,30 @@
             
     <li class="toctree-l2"><a href="#lab-resources">Lab Resources</a></li>
     
+
+    <li class="toctree-l2"><a href="#lab-content">Lab Content</a></li>
+    
         <ul>
         
+            <li><a class="toctree-l3" href="#form">Form</a></li>
+        
+            <li><a class="toctree-l3" href="#example">Example</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#hosting-and-accessing-labs">Hosting And Accessing Labs</a></li>
+    
+
+    <li class="toctree-l2"><a href="#ordering-labs">Ordering Labs</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#use-logical-folder-structure">Use Logical Folder Structure</a></li>
+        
             <li><a class="toctree-l3" href="#use-consistent-numbering">Use Consistent Numbering</a></li>
+        
+            <li><a class="toctree-l3" href="#example-folder-structure-with-lab-files">Example Folder Structure With Lab Files</a></li>
         
         </ul>
     
@@ -161,17 +182,74 @@
             <div class="section">
               
                 <h1 id="lab-resources">Lab Resources<a class="headerlink" href="#lab-resources" title="Permanent link">&para;</a></h1>
-<p><em>Under Construction</em></p>
-<p><strong>GitHub Hosted:</strong> We host labs on GitHub, one folder per course. Our lab repos should look similar to <a href="https://github.com/mikeckennedy/write-pythonic-code-demos">this course example</a> and link to signing up for the course in their README file.</p>
-<p>Students download the <code>.zip</code> for the repo from GitHub at the beginning of their course. We want to encourage students to use version control and open-source right from the start.</p>
-<p>Pro's and Con's for Downloading vs. Cloning:</p>
+<p>This section contains information about code training exercises (called "labs"). You can read about logistics regarding hosting and how to include them into your course, as well as some examples of how expected lab challenges could look like.</p>
+<h1 id="lab-content">Lab Content<a class="headerlink" href="#lab-content" title="Permanent link">&para;</a></h1>
+<p>Labs are the training exercises for your students. They are the <a href="https://en.wikipedia.org/wiki/Kata">"katas"</a> of a programmer and should help your students to train their skills by pushing them to type and think and type some more. Repetition is an important part of learning, and while your main focus should be on getting students to work on interesting projects, some coding concepts simply require plain old training. Breaking concepts up into small parts that can be individually trained also helps students to keep on top of the large amount of new information they need to absorb.</p>
+<h2 id="form">Form<a class="headerlink" href="#form" title="Permanent link">&para;</a></h2>
+<p>To make it easy for students to start coding, you should provide them with files that include instructions so that they only need to open the file their preferred text editor and start coding.</p>
+<h2 id="example">Example<a class="headerlink" href="#example" title="Permanent link">&para;</a></h2>
+<p>An example file for our beginner Python course looks e.g. like so:</p>
+<p><code>01_06_hello5.py</code></p>
+<pre><code class="python">'''
+Write the necessary code to display &quot;Hello World!&quot; 5 times.
+'''
+
+</code></pre>
+
+<p>The file contains the instructions for the lab's task as a python multi-line comment. Right underneath the comment the student can write and execute their code:</p>
+<p><code>01_06_hello5.py</code></p>
+<pre><code class="python">'''
+Write the necessary code to display &quot;Hello World!&quot; 5 times.
+'''
+
+print(&quot;Hello World! &quot; * 5)
+</code></pre>
+
+<p>After finishing the task, they can push it back up to their GitHub repo and thus keep the instructions and the code side-by-side. This makes it easy for their mentor to give them feedback on the task.</p>
+<h1 id="hosting-and-accessing-labs">Hosting And Accessing Labs<a class="headerlink" href="#hosting-and-accessing-labs" title="Permanent link">&para;</a></h1>
+<p><strong>GitHub Hosted:</strong> We host labs on GitHub, one repository per course. Our lab repos should look similar to <a href="https://github.com/mikeckennedy/write-pythonic-code-demos">this course example</a> and link to a call for signing up for the course in their README file.</p>
+<p><strong>Students Download Or Clone Labs</strong>: Students either download the <code>.zip</code> for the repo from GitHub, or clone the repo at the beginning of taking the course. Generally, we want to encourage students to use version control and open-source right from the start. However, for beginner courses we opt for students to download a <code>.zip</code> file rather than making them jump through the hoops of using Git and GitHub.</p>
+<ul>
+<li><strong>Beginner Course</strong>: Set up a URL Resource in your course that links to a "Download ZIP" URL of your course's GitHub repo.</li>
+<li><strong>Advanced Course</strong>: You can opt to add a resource that explains students quickly how to clone your labs repo. We can assume that advanced students are already familiar with using version control.</li>
+</ul>
+<p>Pro's and Con's for Downloading vs. Cloning the labs:</p>
 <ul>
 <li><strong>Download:</strong> No sync for updates we do</li>
 <li><strong>Clone:</strong> requires some pre-existing Git knowledge</li>
 </ul>
+<h1 id="ordering-labs">Ordering Labs<a class="headerlink" href="#ordering-labs" title="Permanent link">&para;</a></h1>
+<p>Files and file structures can easily get out of control and there are always 100 valid ways of setting up a repository. For uniformity's sake, we ask you to stick to the following setup. However, we are open for suggestions on how to improve the structure.</p>
+<h2 id="use-logical-folder-structure">Use Logical Folder Structure<a class="headerlink" href="#use-logical-folder-structure" title="Permanent link">&para;</a></h2>
+<p>When creating your labs it is best to follow a folder structure that mirrors the section structure of your course. Each course section should have some associated labs. A logical folder structure will help your students in their learning progress.</p>
 <h2 id="use-consistent-numbering">Use Consistent Numbering<a class="headerlink" href="#use-consistent-numbering" title="Permanent link">&para;</a></h2>
-<p>Double-digits for lab numbers (should we do triple?)</p>
-<p>Here's a link to <a href="https://github.com/CodingNomads/utils">a script that helps with renaming</a>. It's likely that you'll need to rename, so feel free to use and customize as much as is helpful for you.</p>
+<p>Use double-double-digit numbering for individual labs. This helps to keeps them in the order you intend students to tackle them.</p>
+<p>Here's a link to <a href="https://github.com/CodingNomads/utils">a script that helps with renaming</a>. It's likely that you'll need to rename your labs in the process of creating your course. Feel free to use and customize this script as much as is helpful for you.</p>
+<h2 id="example-folder-structure-with-lab-files">Example Folder Structure With Lab Files<a class="headerlink" href="#example-folder-structure-with-lab-files" title="Permanent link">&para;</a></h2>
+<pre><code>python_labs
+|
+├── 01_python_fundamentals
+│   ├── 01_01_run_it.py
+│   ├── 01_02_seconds_years.py
+│   ├── 01_03_yeehaw.py
+│   ├── 01_04_formula.py
+│   ├── 01_05_addition.py
+│   ├── 01_06_hello5.py
+│   └── 01_07_area_perimeter.py
+
+--- snip ---
+
+├── 17_decorators
+│   ├── 17_01_wraps.py
+│   └── 17_02_tags.py
+└── 18_lambdas
+    ├── 18_01_first_lambda.py
+    ├── 18_02_return.py
+    ├── 18_03_rewrite.py
+    ├── 18_04_hello.py
+    ├── 18_05_names.py
+    └── 18_06_tuple_sort.py
+</code></pre>
               
             </div>
           </div>
