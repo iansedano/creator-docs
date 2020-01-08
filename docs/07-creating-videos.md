@@ -203,7 +203,7 @@ Below are a selection of tips and tricks to keep in mind to amp up your video cr
 
 **Add Editing Notes**: Add a README file with notes for editing to your recorded screencasts. This document should mention:
 
-* At what timestamp in which video are mistakes--to quicker find and cut them when editing
-* When there should be a screen overlay (e.g. when accidentally mis-naming something while talking) and what should be on the screen overlay
+* At what **timestamp in which video are mistakes**--to quicker find and cut them when editing
+* When there should be a **screen overlay** (e.g. when accidentally mis-naming something while talking) and what should be on the screen overlay
 
 **Upload**: Upload the finished recordings to your dedicated shared folder to allow us to give you feedback and add necessary edits.
