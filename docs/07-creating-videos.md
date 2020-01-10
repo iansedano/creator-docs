@@ -140,7 +140,13 @@ When using slides for any of your videos please use our [slides template](https:
 
 Stick with [this basic design](https://docs.google.com/presentation/d/15HOG5TyGKWfvP4ZcouKAb3CYhMWqdhLa75Np59jh7Iw/edit?usp=sharing). It'll help your students to focus on the essential information.
 
-**Note**: If you are using KeyNote on MacOS, you can [download a corresponding Keynote theme here](https://drive.google.com/drive/u/0/folders/1m6jfPz803rZMDp1vLDKQz72nCLzek_UA).
+**Note**: If you are using KeyNote on MacOS, you can [download a corresponding Keynote theme here](https://drive.google.com/drive/u/0/folders/1m6jfPz803rZMDp1vLDKQz72nCLzek_UA). Please install the suggested fonts locally:
+
+* `Barlow condensed` (titles)
+* `Source Sans Pro` (text)
+* `Roboto Mono` (code)
+
+You can [download them all from here](https://drive.google.com/drive/u/0/folders/1AGnyJpEBqBqQyW_UJLY8cVWCWh1wCoQN).
 
 ---
 
