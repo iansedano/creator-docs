@@ -134,11 +134,13 @@ That said, you can always loosen it up and increase retention and enjoyment for 
 
 ### Slides
 
-When using slides for any of your videos please use our [slides template](https://docs.google.com/presentation/d/1TDzErFmyVnDkRoyWrotm8rE3Yy-yikzUFmeV0mCD4Dk/edit?usp=sharing) and clone your slides from it. We suggest doing this in order to keep the style consistent across multiple courses.
+When using slides for any of your videos please use our [slides template](https://docs.google.com/presentation/d/15HOG5TyGKWfvP4ZcouKAb3CYhMWqdhLa75Np59jh7Iw/edit?usp=sharing). Make a copy of the template and create your slides from it. We suggest doing this in order to keep the style consistent across multiple courses.
 
-![Slide Example Screenshot](imgs/slide-section.png)
+![Slide Example Screenshot](imgs/slide_example.png)
 
-Stick with [this basic design](https://docs.google.com/presentation/d/1TDzErFmyVnDkRoyWrotm8rE3Yy-yikzUFmeV0mCD4Dk/edit?usp=sharing). It'll help your students to focus on the essential information.
+Stick with [this basic design](https://docs.google.com/presentation/d/15HOG5TyGKWfvP4ZcouKAb3CYhMWqdhLa75Np59jh7Iw/edit?usp=sharing). It'll help your students to focus on the essential information.
+
+**Note**: If you are using KeyNote on MacOS, you can [download a corresponding Keynote theme here](https://drive.google.com/drive/u/0/folders/1m6jfPz803rZMDp1vLDKQz72nCLzek_UA).
 
 ---
 
