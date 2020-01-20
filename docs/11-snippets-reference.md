@@ -94,3 +94,11 @@ Use Markdown to create in-line-code snippets:
 ```
 
 In the platform's **HTML editor** you can create them like this: `<code>your_code_here()</code>`
+
+## [`<iframe>` Embeds](https://getbootstrap.com/docs/4.0/utilities/embed/)
+
+```
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="your_embed_url" allowfullscreen></iframe>
+</div>
+```

@@ -125,6 +125,16 @@ Wrap code snippets into triple-backticks. This works both in Markdown as well as
 
 **In the visual editor**, there is no button for marking a section of text as inline code. Therefore, you will need to switch to the _HTML editor_ and wrap in-line code snippets into `<code>your_code()</code>` tags.
 
+#### Embedded Resources
+
+For external videos that are not hosted on our vimeo account and e.g. external code playgrounds, use [Bootstraps responsive embed class](https://getbootstrap.com/docs/4.0/utilities/embed/):
+
+```
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="your_embed_url" allowfullscreen></iframe>
+</div>
+```
+
 #### Resources
 
 ```html
