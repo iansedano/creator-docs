@@ -45,14 +45,26 @@ Section tags in the "Summary" of each section help students stay on track and vi
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/evwWenaThmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Switch off blue and yellow tags for better visual grouping.
+
+Blue:
+
 ```html
-<h3 class="week week-1">Section 1</h3>
+<div class="d-flex flex-row-reverse">
+  <span class="badge badge-pill badge-info">
+      Section 1
+  </span>
+</div>
 ```
 
-Different sections can have different styles, so add also the `week-#` class appropriately, e.g.:
+Yellow:
 
 ```html
-<h3 class="week week-2">Section 2</h3>
+<div class="d-flex flex-row-reverse">
+  <span class="badge badge-pill badge-warning">
+    Section 2
+  </span>
+</div>
 ```
 
 ![Tags for grouping sections](imgs/section-tags.png)

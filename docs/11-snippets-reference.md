@@ -8,7 +8,7 @@ Blue:
 
 ```html
 <div class="d-flex flex-row-reverse">
-  <span class="badge badge-primary rounded">
+  <span class="badge badge-pill badge-info">
       Section 1
   </span>
 </div>
@@ -18,8 +18,8 @@ Yellow:
 
 ```html
 <div class="d-flex flex-row-reverse">
-  <span class="badge badge-warning rounded">
-    Section 6
+  <span class="badge badge-pill badge-warning">
+    Section 2
   </span>
 </div>
 ```
