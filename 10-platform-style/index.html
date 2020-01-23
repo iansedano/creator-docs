@@ -191,11 +191,21 @@
 <p>Section tags in the "Summary" of each section help students stay on track and visually bundle multiple sections logically together.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/evwWenaThmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<pre><code class="html">&lt;h3 class=&quot;week week-1&quot;&gt;Section 1&lt;/h3&gt;
+<p>Switch off blue and yellow tags for better visual grouping.</p>
+<p>Blue:</p>
+<pre><code class="html">&lt;div class=&quot;d-flex flex-row-reverse&quot;&gt;
+  &lt;span class=&quot;badge badge-pill badge-info&quot;&gt;
+      Section 1
+  &lt;/span&gt;
+&lt;/div&gt;
 </code></pre>
 
-<p>Different sections can have different styles, so add also the <code>week-#</code> class appropriately, e.g.:</p>
-<pre><code class="html">&lt;h3 class=&quot;week week-2&quot;&gt;Section 2&lt;/h3&gt;
+<p>Yellow:</p>
+<pre><code class="html">&lt;div class=&quot;d-flex flex-row-reverse&quot;&gt;
+  &lt;span class=&quot;badge badge-pill badge-warning&quot;&gt;
+    Section 2
+  &lt;/span&gt;
+&lt;/div&gt;
 </code></pre>
 
 <p><img alt="Tags for grouping sections" src="../imgs/section-tags.png" /></p>
