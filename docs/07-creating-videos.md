@@ -108,6 +108,28 @@ Always record in a **16:9 ratio** with a framerate of **60 FPS**. Don't go below
 
 * [SwitchResX](https://www.madrau.com): In case the above doesn't work for you, SwitchResX is a tool that allows setting user-defined screen resolutions on MacOS. **Price**: $14
 
+## Clarity And Focus
+
+Use a clean and focused design for your desktop, dock, status bar, etc. to:
+
+- **avoid dating** your assets (remove clocks, assets that may change in future OS versions etc.)
+- **avoid distractions** to increase students' focus
+
+On MacOS, you can remove a lot of the items in your status bar via the System Preferences. A reduced version can look like below:
+
+![zen desktop](imgs/screen_desktop.png)
+
+Remove unused items from your doc and keep it focused on dev tools that you are using, e.g.:
+
+![zen dock](imgs/screen_dock.png)
+
+### Additional Tips
+
+- **Increase all font sizes**: in your **IDE**, your **browser**, and your **terminal**. Make it big, bigger than you'd think. It's _always_ better to focus on small parts of code and make it easy to read and understand.
+- **Increase your cursor size**: This makes it easier to orient for your students. In MacOS you can increase the cursor size in Accessibility Settings.
+
+---
+
 # General Info
 
 ## Which Sections Should Have a Video?
