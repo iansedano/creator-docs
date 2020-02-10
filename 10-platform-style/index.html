@@ -248,6 +248,7 @@
 <p>The Bootstrap alert boxes also help to visually break up a long piece of content by highlighting an important section.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3REbh9xr5lE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<p><strong>Note:</strong> If you need to use <strong>multiple lines</strong> in your alert boxes, use <code>&lt;br&gt;</code> tags to create newlines (instead of using <code>&lt;p&gt;</code> tags). This results in nicer-looking alert boxes without additional spacing.</p>
 <h4 id="code-blocks">Code Blocks<a class="headerlink" href="#code-blocks" title="Permanent link">&para;</a></h4>
 <p>Wrap code snippets into triple-backticks. This works both in Markdown as well as the visual editor:</p>
 <pre><code>```
@@ -295,6 +296,27 @@ print("your code here")
 </code></pre>
 
 <p>For more information, refer to <a href="https://www.latex-project.org/help/documentation/">the LaTeX docs</a>.</p>
+<p><strong>Note:</strong> If you need to use a couple of single-line LaTeX in a row, e.g. for explaining the contents of a formula in more detail, we suggest to use a <a href="https://getbootstrap.com/docs/4.0/content/tables/">Bootstrap table</a> for easier viewing, e.g.:</p>
+<pre><code class="html">&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;$$\text{EMA}_t=\text{EMA today}$$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;$$p_t=\text{price today}$$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;$$\text{EMA}_y=\text{EMA yesterday}$$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+
+<p>Renders to:</p>
+<p><img alt="LaTeX blocks in a table" src="../imgs/latex_table.png" /></p>
               
             </div>
           </div>
