@@ -102,3 +102,10 @@ In the platform's **HTML editor** you can create them like this: `<code>your_cod
   <iframe class="embed-responsive-item" src="your_embed_url" allowfullscreen></iframe>
 </div>
 ```
+## [LaTeX](https://www.latex-project.org/help/documentation/) Fomulas
+
+Use LaTeX block syntax:
+
+```md
+$$content$$
+```

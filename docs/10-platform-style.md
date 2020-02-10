@@ -173,3 +173,23 @@ To highlight a section of your documentation as a quote, please use the [Bootstr
 We are applying some custom CSS to it to make the quotes look like shown below:
 
 ![An adapted Bootstrap blockquote](imgs/blockquote.png)
+
+#### LaTeX
+
+If you want to use [LaTeX](https://www.latex-project.org/) to display formulas, the Marklar Markdown editor only supports LaTeX **blocks**:
+
+```md
+$$content$$
+```
+
+E.g. in order to display the following formula correctly rendered like so:
+
+![rendered LaTeX formula](img/latex_rendered.png)
+
+You can write the following in the Marklar editor:
+
+```md
+$$\text{EMA}_{t}=[V_t \times (\frac d {1+n})] + \text{EMA}_y \times [1 - \frac d {1+n}]$$
+```
+
+For more information, refer to [the LaTeX docs](https://www.latex-project.org/help/documentation/).
