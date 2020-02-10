@@ -194,3 +194,28 @@ $$\text{EMA}_{t}=[V_t \times (\frac d {1+n})] + \text{EMA}_y \times [1 - \frac d
 ```
 
 For more information, refer to [the LaTeX docs](https://www.latex-project.org/help/documentation/).
+
+**Note:** If you need to use a couple of single-line LaTeX in a row, e.g. for explaining the contents of a formula in more detail, we suggest to use a [Bootstrap table](https://getbootstrap.com/docs/4.0/content/tables/) for easier viewing, e.g.:
+
+```html
+<table class="table">
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>$$\text{EMA}_t=\text{EMA today}$$</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>$$p_t=\text{price today}$$</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>$$\text{EMA}_y=\text{EMA yesterday}$$</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+Renders to:
+
+![LaTeX blocks in a table](imgs/latex_table.png)
