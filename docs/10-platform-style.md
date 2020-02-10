@@ -184,7 +184,7 @@ $$content$$
 
 E.g. in order to display the following formula correctly rendered like so:
 
-![rendered LaTeX formula](img/latex_rendered.png)
+![rendered LaTeX formula](imgs/latex_rendered.png)
 
 You can write the following in the Marklar editor:
 
