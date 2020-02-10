@@ -119,6 +119,7 @@ The Bootstrap alert boxes also help to visually break up a long piece of content
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3REbh9xr5lE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**Note:** If you need to use **multiple lines** in your alert boxes, use `<br>` tags to create newlines (instead of using `<p>` tags). This results in nicer-looking alert boxes without additional spacing.
 
 #### Code Blocks
 
