@@ -29,11 +29,11 @@ We have [guidelines for technical writing](01-content-guidelines.md) that you sh
 
 ## Reflect
 
+Reflection is essential for retention of learned content, which is why it helps students when you push them to look back and synthesize their new knowledge.
+
 **Quiz Checkpoints:** Interlaced with the written and video course content, students encounter quizzes that serve as checkpoints for themselves. Answering quiz questions forces them to synthesize the content they previously passively consumed. It also allows them to understand whether they got a grip on the previous section's content, or whether they will have to study it some more.
 
 **Writing Prompts:** To encourage students to further reflect on their learning process, you can include writing prompts (e.g. "Journal" resources, or [open-ended quiz questions](05-quiz-question-types.md#open-ended-text-questions)). 
-
-Reflection is essential for retention of learned content, which is why it helps students when you push them to look back and synthesize their new knowledge.
 
 # How To Duplicate a Resource
 
