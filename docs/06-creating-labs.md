@@ -61,7 +61,7 @@ When creating your labs it is best to follow a folder structure that mirrors the
 
 Use double-double-digit numbering for individual labs. This helps to keeps them in the order you intend students to tackle them.
 
-Here's a link to [a script that helps with renaming](https://github.com/CodingNomads/utils/rename.py). It's likely that you'll need to rename your labs in the process of creating your course. Feel free to use and customize this script as much as is helpful for you.
+Here's a link to [a script that helps with renaming](https://github.com/CodingNomads/utils#renamepy). It's likely that you'll need to rename your labs in the process of creating your course. Feel free to use and customize this script as much as is helpful for you.
 
 ## Example Folder Structure With Lab Files
 
