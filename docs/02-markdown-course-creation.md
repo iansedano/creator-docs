@@ -27,6 +27,8 @@ We want to make sure that all links open up in a new tab when clicked, to avoid 
 This is <a href="http://your.url" target="_blank">a link</a>
 ```
 
+**Note:** You can use [this script](https://github.com/CodingNomads/utils#replace_linkspy) to replace all normal Markdown links with HTML links that open up in new tabs. If you remember to use this script, you can write Markdown links as you're used to, and run the script before uploading your content to our platform. This may save you some editing time.
+
 ## Code And Code Blocks
 
 Code snippets wrapped in single backticks as well as code blocks with triple-backticks are correctly rendered by the platform's Markdown engine.
