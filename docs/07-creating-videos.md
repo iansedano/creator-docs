@@ -237,3 +237,11 @@ Below are a selection of tips and tricks to keep in mind to amp up your video cr
 * When there should be a **screen overlay** (e.g. when accidentally mis-naming something while talking) and what should be on the screen overlay
 
 **Upload**: Upload the finished recordings to your dedicated shared folder to allow us to give you feedback and add necessary edits.
+
+## Setting Up Video Time Instances
+
+Generally, our team will handle uploading the videos to our platform. If you are setting up the Video Time Instances yourself, make sure that the **Responsive** option is checked in the **Embed** option of the resource:
+
+![responsive video setting](imgs/video_time_embed_responsive.png)
+
+Optionally, you can also check **Autoplay** for your videos.
