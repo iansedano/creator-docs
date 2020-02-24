@@ -1,8 +1,6 @@
 site_name: CN Course Creator Docs
 site_description: Information on how to create engaging course content.
 site_author: Martin Breuss
-date: 2019-09-23
-some_url: https://codingnomads.co/
 nav:
   - Overview: README.md
   - Course Creation Basics: 00-basics.md
