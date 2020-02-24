@@ -4,7 +4,7 @@ We advise to use **Markdown** for writing your course content. It is simple to r
 
 It is also better to use Markdown than directly creating your content inside our learning platform. The latter can sometimes be a drag due to the content box window sizing and other platform-related small annoyances. It might also make the content too site-specific and difficult to transition elsewhere. We've made this mistake before, and would prefer to avoid accruing more technical debt.
 
-**Note:** If you still want to use the **platform-included WYSIWYG editor** (called "Atto"), please check out [how to choose your text editor](02-markdown-course-creation.md#text-editor-choice) and make sure to thoroughly read over and **stick with our [Style Guide](10-platform-style.md)**.
+**Note:** If you still want to use the **platform-included WYSIWYG editor** (called "Atto"), please check out [how to choose your text editor](02-markdown-course-creation.md#text-editor-choice) and make sure to thoroughly read over and **stick with our [Style Guide](11-platform-style.md)**.
 
 Here is a screencast that explains how to add your Markdown content to a resource in our platform:
 
