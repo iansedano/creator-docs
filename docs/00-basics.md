@@ -35,8 +35,24 @@ Reflection is essential for retention of learned content, which is why it helps 
 
 **Writing Prompts:** To encourage students to further reflect on their learning process, you can include writing prompts (e.g. "Journal" resources, or [open-ended quiz questions](05-quiz-question-types.md#open-ended-text-questions)). 
 
+---
+
 # How To Duplicate a Resource
 
 Starting with our copied skeleton course resource, the easiest may be to duplicate a resource and then replace the content. This is the recommended way of starting to build your course, since it keeps important settings intact. The following video shows you how to duplicate an existing resource in our platform:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fSOzDZjKlIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# How to Duplicate a Section From Another Course
+
+**Note:** You will probably _not_ need to do this, but since it has come up, here are the steps.
+
+You can copy sections from other courses also in your role as a `Teacher`. To do so, click on the cogwheel-symbol on the top right of your course page, then on `Import`:
+
+![drop-down menu showing the import option](imgs/copy_section_import.png)
+
+Next, select the course you want to import from, and then select the Sections/Resources you need:
+
+![drop-down menu showing the import option](imgs/copy_section_select.png)
+
+Keep clicking through the prompts until you're finished, and the imported resources will be merged with the resources you already have in your course in the respective sections.
