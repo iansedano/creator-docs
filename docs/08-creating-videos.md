@@ -164,6 +164,8 @@ Stick with [this basic design](https://docs.google.com/presentation/d/15HOG5TyGK
 
 **Note**: If you are using KeyNote on MacOS, you can [download a corresponding Keynote theme here](https://drive.google.com/drive/u/0/folders/1m6jfPz803rZMDp1vLDKQz72nCLzek_UA). Please install the suggested fonts locally:
 
+#### Slide Fonts
+
 * `Barlow condensed` (titles)
 * `Source Sans Pro` (text)
 * `Roboto Mono` (code)

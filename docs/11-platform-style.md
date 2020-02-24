@@ -97,7 +97,11 @@ In **Markdown**, use the equivalent heading levels that the visual editor uses:
 
 ![Bootstrap alert box for information](imgs/alert-box-preview.png)
 
-Use the Bootstrap alert box `alert alert-warning` for criticial information and gotchas. E.g.:
+Add disclaimers as `alert alert-warning` boxes when a new concept is mentioned but not yet deeply explained. You want to avoid students feeling like this (student quote):
+
+>you know, I think my main issue is if I get to a page, and the way it is written implies I should already understand it, but it is completely new and unfamiliar. It has me worrying that it is obvious and I am the only one just not getting it.
+
+To avoid this frustration, use the Bootstrap alert box with a short note for criticial information and gotchas. E.g.:
 
 >"Just read over this for now, we'll dig deeper into it in a later section."
 
@@ -219,3 +223,33 @@ For more information, refer to [the LaTeX docs](https://www.latex-project.org/he
 Renders to:
 
 ![LaTeX blocks in a table](imgs/latex_table.png)
+
+## [Video Slides](08-creating-videos.md#slides)
+
+To keep a unified style across our different courses, use the [Slide Template](https://docs.google.com/presentation/d/15HOG5TyGKWfvP4ZcouKAb3CYhMWqdhLa75Np59jh7Iw/edit?usp=sharing) (or corresponding [Keynote Theme](https://drive.google.com/drive/u/0/folders/1m6jfPz803rZMDp1vLDKQz72nCLzek_UA)). More information in the dedicated [Video Slides](08-creating-videos.md#slides) section.
+
+## Brand Colors
+
+In case you need to highlight something, focus on using the following colors that reflect the colors in the CodingNomads logo:
+
+- **primary:** sea blue
+  - Hex value: `#0071BD`
+  - RGB code: `rbg(0, 113, 189)`
+  - HSV: `hsv(204.13, 100%, 74.12%)`
+
+- **secondary:** sunset yellow (outermost)
+  - Hex value: `#FBB03B`
+  - RGB code: `rbg(251, 176, 59)`
+  - HSV: `hsv(36.56, 76.49%, 98.43%)`
+
+The general theme settings for our brand communication could reflect these two colors as **primary** (sea-blue) and **secondary** (sunset-yellow) brand colors.
+
+## [Fonts](https://drive.google.com/drive/u/0/folders/1AGnyJpEBqBqQyW_UJLY8cVWCWh1wCoQN)
+
+When creating any content that includes fonts outside of our learning platform (e.g. Video Slides), stick to using the following fonts:
+
+* `Barlow condensed` (titles)
+* `Source Sans Pro` (text)
+* `Roboto Mono` (code)
+
+You can [download them all from here](https://drive.google.com/drive/u/0/folders/1AGnyJpEBqBqQyW_UJLY8cVWCWh1wCoQN).
