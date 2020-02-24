@@ -49,10 +49,10 @@ Starting with our copied skeleton course resource, the easiest may be to duplica
 
 You can copy sections from other courses also in your role as a `Teacher`. To do so, click on the cogwheel-symbol on the top right of your course page, then on `Import`:
 
-![drop-down menu showing the import option](imgs/copy_section_import.png)
+![drop-down menu showing the import option](imgs/copy_sections_import.png)
 
 Next, select the course you want to import from, and then select the Sections/Resources you need:
 
-![drop-down menu showing the import option](imgs/copy_section_select.png)
+![drop-down menu showing the import option](imgs/copy_sections_select.png)
 
 Keep clicking through the prompts until you're finished, and the imported resources will be merged with the resources you already have in your course in the respective sections.
