@@ -55,3 +55,12 @@ Attempt to follow these three simple steps even for short sections. Our brain pr
 **Feel free to have some fun!** We want our students to enjoy our courses as much as possible and laugh as often as possible! :)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7TtIHUrcuzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Images
+
+Make sure to only use image material that is copyright-free. Here are a couple of resources where you can find free stock images:
+
+* [https://pixabay.com/](https://pixabay.com/)
+* [https://publicdomainvectors.org/en/](https://publicdomainvectors.org/en/)
+* [https://www.pexels.com/](https://www.pexels.com/)
+* [https://unsplash.com/](https://unsplash.com/)
