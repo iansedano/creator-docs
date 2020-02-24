@@ -82,8 +82,6 @@
         
             <li><a class="toctree-l3" href="#text-editor-choice">Text Editor Choice</a></li>
         
-            <li><a class="toctree-l3" href="#changing-the-default-text-editor">Changing The Default Text Editor</a></li>
-        
         </ul>
     
 
@@ -173,6 +171,7 @@
                 <h1 id="markdown-course-creation">Markdown Course Creation<a class="headerlink" href="#markdown-course-creation" title="Permanent link">&para;</a></h1>
 <p>We advise to use <strong>Markdown</strong> for writing your course content. It is simple to read and write, introduces consistency through limiting options, and makes the content easy to re-use in other contexts. Write in Markdown rather than using a text editing program such as MS Word or Google Docs.</p>
 <p>It is also better to use Markdown than directly creating your content inside our learning platform. The latter can sometimes be a drag due to the content box window sizing and other platform-related small annoyances. It might also make the content too site-specific and difficult to transition elsewhere. We've made this mistake before, and would prefer to avoid accruing more technical debt.</p>
+<p><strong>Note:</strong> If you still want to use the <strong>platform-included WYSIWYG editor</strong> (called "Atto"), please check out <a href="./#text-editor-choice">how to choose your text editor</a> and make sure to thoroughly read over and <strong>stick with our <a href="../10-platform-style/">Style Guide</a></strong>.</p>
 <p>Here is a screencast that explains how to add your Markdown content to a resource in our platform:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fNW_77QC67E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -188,6 +187,7 @@
 <pre><code class="html">This is &lt;a href=&quot;http://your.url&quot; target=&quot;_blank&quot;&gt;a link&lt;/a&gt;
 </code></pre>
 
+<p><strong>Note:</strong> You can use <a href="https://github.com/CodingNomads/utils#replace_linkspy">this script</a> to replace all normal Markdown links with HTML links that open up in new tabs. If you remember to use this script, you can write Markdown links as you're used to, and run the script before uploading your content to our platform. This may save you some editing time.</p>
 <h2 id="code-and-code-blocks">Code And Code Blocks<a class="headerlink" href="#code-and-code-blocks" title="Permanent link">&para;</a></h2>
 <p>Code snippets wrapped in single backticks as well as code blocks with triple-backticks are correctly rendered by the platform's Markdown engine.</p>
 <h2 id="example-markdown-rendering">Example Markdown Rendering<a class="headerlink" href="#example-markdown-rendering" title="Permanent link">&para;</a></h2>
@@ -196,12 +196,16 @@
 <p>The above Markdown text will correctly render in our platform like so:</p>
 <p><img alt="Rendered Markdown content on our platform" src="../imgs/editor_rendered_view.png" /></p>
 <h2 id="text-editor-choice">Text Editor Choice<a class="headerlink" href="#text-editor-choice" title="Permanent link">&para;</a></h2>
-<p>Due to an overlap of a moodle theme we are using, it is currently not possible to individually change the text editor preference. Therefore, you can't easily switch to Markdown input yourself. We aim to get that fixed, but for now please contact a site admin to change the default editor site-wise when you'll be adding your content to the site. After you finish, we will need to change it back.</p>
-<p>It will remember the Plain Text Editor type you used to initially create a page, and when editing the page it will re-open with the Markdown editor selected.</p>
-<h2 id="changing-the-default-text-editor">Changing The Default Text Editor<a class="headerlink" href="#changing-the-default-text-editor" title="Permanent link">&para;</a></h2>
-<p><strong>Note:</strong> Currently this needs to be done by a site administrator:</p>
-<p><img alt="Screenshot with instructions on how to change the default editor order" src="../imgs/editor_choice_change_order.png" /></p>
-<p><img alt="Select 'Markdown format' in the editor's drop-down menu" src="../imgs/editor_choice_select_markdown.png" /></p>
+<p>You can change your default text editor in your user profile's cogwheel drop-down <code>Editor Preferences</code>. Choose <code>Marklar</code> for the easiest Markdown editing functionality.</p>
+<p>The <strong>Marklar</strong> editor allows you to:</p>
+<ul>
+<li><strong>write</strong> your content in Markdown</li>
+<li><strong>preview</strong> with a simple button click</li>
+<li><strong>add images</strong> through a straightforward file upload</li>
+</ul>
+<p>The video below shows how to change your text editor preferences. Follow the instructions, but instead of selecting the "Plain Text Editor", choose the new <strong>"Marklar"</strong> editor option. The rest of the process is the same. After you selected the correct editor, your page editing should like like this:</p>
+<p><img alt="Editing a document with the Marklar editor" src="../imgs/editor_marklar.png" /></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/GeHyN-TZ5JY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               
             </div>
           </div>

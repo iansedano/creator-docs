@@ -114,11 +114,7 @@
         
             <li><a class="toctree-l3" href="#objective">Objective</a></li>
         
-            <li><a class="toctree-l3" href="#where-can-i-change-the-design">Where Can I Change the Design?</a></li>
-        
-            <li><a class="toctree-l3" href="#components">Components</a></li>
-        
-            <li><a class="toctree-l3" href="#formatting">Formatting</a></li>
+            <li><a class="toctree-l3" href="#custom-components">Custom Components</a></li>
         
         </ul>
     
@@ -167,125 +163,160 @@
             <div class="section">
               
                 <h1 id="consistently-styled-course-content">Consistently Styled Course Content<a class="headerlink" href="#consistently-styled-course-content" title="Permanent link">&para;</a></h1>
-<p><strong>Note:</strong> <strong>Use Markdown</strong> to create your course content. It will make most of the below information irrelevant to you. If you feel the need to style more individually, <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"><strong>use Bootstrap classes</strong></a>. Bootstrap comes included with the theme we're using. Only if neither fulfills your creative urges, read on for more fine-grained styling.</p>
-<hr />
-<ul>
-<li>Objective</li>
-<li>Where Can I Change the Design?</li>
-<li>Components<ul>
-<li>Tags (Dividers)<ul>
-<li>Section Dividers</li>
-<li>Assignment Dividers</li>
-</ul>
-</li>
-<li>Headings</li>
-<li>Resources</li>
-<li>Tasks</li>
-<li>Quotes</li>
-<li>Code Blocks</li>
-</ul>
-</li>
-<li>Formatting<ul>
-<li>Code Blocks</li>
-<li>Code font size</li>
-<li>Documentation font size</li>
-</ul>
-</li>
-</ul>
+<p><strong>Note:</strong> <strong>Use Markdown</strong> to create your course content. It will make most of the below information irrelevant to you. If you feel the need to style more individually, <a href="https://getbootstrap.com/docs/4.0/getting-started/introduction/"><strong>use Bootstrap classes</strong></a>. Bootstrap is included in the theme we're using. Only if neither fulfills your creative urges, read on for more fine-grained styling.</p>
 <h2 id="objective">Objective<a class="headerlink" href="#objective" title="Permanent link">&para;</a></h2>
 <p>We want <strong>unified and adaptable styling</strong> across all courses on the whole site.</p>
 <ul>
 <li><strong>Simple</strong>: Simple elements are favored over complex ones, because they are easier to set up and maintain</li>
-<li><strong>Reusable</strong>: Use Bootstrap, it's already included. If you <em>need</em> to be more specific, use HTML elements with CSS classes</li>
-<li><strong>Centralized</strong>: All custom styling should be done <em>only</em> through the SCSS in Maker Theme</li>
-<li><strong>Maintainable</strong>: Through editing styles centrally we can avoid unnecessary effort and potential misalignment</li>
+<li><strong>Reusable</strong>: Allow Bootstrap to style your page, it's already included.</li>
+<li><strong>Maintainable</strong>: Through consistent and simple structure, we can adapt styles centrally and avoid unnecessary effort and potential misalignment</li>
 </ul>
-<h2 id="where-can-i-change-the-design">Where Can I Change the Design?<a class="headerlink" href="#where-can-i-change-the-design" title="Permanent link">&para;</a></h2>
-<p>You can access the <a href="https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker"><strong>Maker</strong> Theme settings</a> at the following platform-internal path:</p>
-<p><code>Site administration / Appearance / Maker / Advanced Settings / Raw SCSS</code></p>
-<p>Design changes for components as well as HTML elements in general can be made centrally in the site-wide SCSS file. Click the "Advanced Settings" tab and add/change CSS inside the second SCSS box.</p>
-<p><img alt="Settings page displaying the box where to change SCSS settings" src="../imgs/scss_settings.png" /></p>
-<hr />
-<h2 id="components">Components<a class="headerlink" href="#components" title="Permanent link">&para;</a></h2>
-<p>Components to use when creating and editing courses. Add new components in this section.</p>
-<h3 id="section-tags">Section Tags<a class="headerlink" href="#section-tags" title="Permanent link">&para;</a></h3>
-<p>To help students stay on track, add section tags in the "Summary" of each section (Edit Topic)</p>
-<pre><code class="html">&lt;h3 class=&quot;week week-1&quot;&gt;Week 1 - Part 1&lt;/h3&gt;
-</code></pre>
-
-<p>Different sections can have different styles, so add also the <code>week-#</code> class appropriately, e.g.:</p>
-<pre><code class="html">&lt;h3 class=&quot;week week-3&quot;&gt;Week 3 - Part 3&lt;/h3&gt;
-</code></pre>
-
-<h3 id="dividers">Dividers<a class="headerlink" href="#dividers" title="Permanent link">&para;</a></h3>
-<p>To improve the visual flow in a course overview, we add colored bars to break up the course content.</p>
+<p>Therefore, we ask you to use <strong>simple HTML</strong> (e.g. through using the Markdown editor or the WYSIWYG editor) and customize the resulting HTML only minimally, with the following custom components:</p>
+<h2 id="custom-components">Custom Components<a class="headerlink" href="#custom-components" title="Permanent link">&para;</a></h2>
+<p>Additional custom components you can use when creating and editing courses.</p>
+<h3 id="course-overview-page-additional-styling">Course Overview Page Additional Styling<a class="headerlink" href="#course-overview-page-additional-styling" title="Permanent link">&para;</a></h3>
+<p>The following adaptations should be used to make the course overview page styled consistently and easier readable for students.</p>
+<h4 id="1-section-dividers">1. Section Dividers<a class="headerlink" href="#1-section-dividers" title="Permanent link">&para;</a></h4>
+<p>To improve the visual flow in a course overview, you can add colored bars to break up the course content.</p>
 <p><img alt="dividers" src="../imgs/dividers.png" /></p>
 <p><strong>Section Dividers:</strong> These can be used to sub-divide a larger section and give it a relevant sub-section heading. Create a "Tag Resource" on the platform, and add the following HTML code in the HTML editor:</p>
 <pre><code class="html">&lt;h5 class=&quot;section-divider&quot;&gt;Section Mini-Heading&lt;/h5&gt;
 </code></pre>
 
-<p><strong>Assignment Dividers:</strong> To indicate to students that the following materials require their own input, we use differently-colored dividers for section that consist of instructions for mini-projects, quizzes, etc. You can create such a divider also using the "Tag Resource" and entering the following HTML code in the HTML editor:</p>
+<p><strong>Assignment Dividers:</strong> To indicate to students that the following materials require their own input, we use differently-colored dividers for a section that consist of instructions for mini-projects, quizzes, etc. You can create such a divider also using the "Tag Resource" and entering the following HTML code in the HTML editor:</p>
 <pre><code class="html">&lt;h5 class=&quot;section-assignment&quot;&gt;Assignments&lt;/h5&gt;
 </code></pre>
 
-<h3 id="headings">Headings<a class="headerlink" href="#headings" title="Permanent link">&para;</a></h3>
-<p>Use Editor-provided headings levels:</p>
+<h4 id="2-section-tags">2. Section Tags<a class="headerlink" href="#2-section-tags" title="Permanent link">&para;</a></h4>
+<p>Section tags in the "Summary" of each section help students stay on track and visually bundle multiple sections logically together.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/evwWenaThmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Switch off blue and yellow tags for better visual grouping.</p>
+<p>Blue:</p>
+<pre><code class="html">&lt;div class=&quot;d-flex flex-row-reverse&quot;&gt;
+  &lt;span class=&quot;badge badge-pill badge-info&quot;&gt;
+      Section 1
+  &lt;/span&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Yellow:</p>
+<pre><code class="html">&lt;div class=&quot;d-flex flex-row-reverse&quot;&gt;
+  &lt;span class=&quot;badge badge-pill badge-warning&quot;&gt;
+    Section 2
+  &lt;/span&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p><img alt="Tags for grouping sections" src="../imgs/section-tags.png" /></p>
+<hr />
+<h3 id="page-resources-individual-styling">Page Resources Individual Styling<a class="headerlink" href="#page-resources-individual-styling" title="Permanent link">&para;</a></h3>
+<p>The following custom style elements should be considered when creating written documentation for your course content.</p>
+<h4 id="headings">Headings<a class="headerlink" href="#headings" title="Permanent link">&para;</a></h4>
+<p>In the <strong>visual editor</strong>, use editor-provided headings levels:</p>
 <ul>
 <li>"Heading (large)" option creates <code>&lt;h3&gt;</code> element</li>
 <li>"Heading (medium)" option creates <code>&lt;h4&gt;</code> element</li>
 <li>"Heading (small)" option creates <code>&lt;h5&gt;</code> element</li>
 </ul>
-<p><strong>Don't apply any editor styles to your headings.</strong> We want to avoid individually bolded headings. We can instead increase heading size, font-weight, etc. centrally through SCSS.</p>
-<h3 id="information">Information<a class="headerlink" href="#information" title="Permanent link">&para;</a></h3>
-<p>Use the Bootstrap alert box <code>alert alert-warning</code> to include information about upcoming course sections. E.g.: "Just read over this for now, we'll dig deeper into it in a later section."</p>
+<p><strong>Don't apply any editor styles to your headings.</strong> We want to avoid individually bolded headings. Avoiding individual styles allows us to increase heading size, font-weight, etc. centrally through SCSS.</p>
+<p>In <strong>Markdown</strong>, use the equivalent heading levels that the visual editor uses:</p>
+<ul>
+<li>Top-level heading: <code>###</code></li>
+<li>Second-level heading: <code>####</code></li>
+<li>Lowest-level heading: <code>#####</code></li>
+</ul>
+<h4 id="information-and-alert-boxes">Information And Alert Boxes<a class="headerlink" href="#information-and-alert-boxes" title="Permanent link">&para;</a></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TSSkUdmHl2I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><img alt="Bootstrap alert box for information" src="../imgs/alert-box-preview.png" /></p>
+<p>Use the Bootstrap alert box <code>alert alert-warning</code> for criticial information and gotchas. E.g.:</p>
+<blockquote>
+<p>"Just read over this for now, we'll dig deeper into it in a later section."</p>
+</blockquote>
 <pre><code class="html">&lt;div class=&quot;alert alert-warning&quot; role=&quot;alert&quot;&gt;
-  &lt;strong&gt;Note:&lt;/strong&gt; Infos about upcoming course sections.
+  &lt;strong&gt;Note:&lt;/strong&gt; Take care to avoid xyz.
 &lt;/div&gt;
 </code></pre>
 
-<p>The alert box can also be used to help visually break up a long piece of content by highlighting an important section.</p>
-<h3 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h3>
+<p>Use <code>alert alert-info</code> to include additional information e.g. on external resources that can lead students further onwards. E.g.:</p>
+<pre><code class="html">&lt;div class=&quot;alert alert-info&quot; role=&quot;alert&quot;&gt;
+  &lt;strong&gt;Info:&lt;/strong&gt; The first bug was a real bug!
+&lt;/div&gt;
+</code></pre>
+
+<p>The Bootstrap alert boxes also help to visually break up a long piece of content by highlighting an important section.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3REbh9xr5lE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p><strong>Note:</strong> If you need to use <strong>multiple lines</strong> in your alert boxes, use <code>&lt;br&gt;</code> tags to create newlines (instead of using <code>&lt;p&gt;</code> tags). This results in nicer-looking alert boxes without additional spacing.</p>
+<h4 id="code-blocks">Code Blocks<a class="headerlink" href="#code-blocks" title="Permanent link">&para;</a></h4>
+<p>Wrap code snippets into triple-backticks. This works both in Markdown as well as the visual editor:</p>
+<pre><code>```
+print("your code here")
+```
+</code></pre>
+<p><strong>Note:</strong> Syntax highlighting can sometimes be broken. This might be annoying and we hope to find a fix that'll solve it site-wise.</p>
+<h4 id="in-line-code">In-line Code<a class="headerlink" href="#in-line-code" title="Permanent link">&para;</a></h4>
+<p><strong>In Markdown</strong>, simply wrap your in-line code into <a href="https://daringfireball.net/projects/markdown/syntax#code"><strong>single backticks</strong></a>.</p>
+<p><strong>In the visual editor</strong>, there is no button for marking a section of text as inline code. Therefore, you will need to switch to the <em>HTML editor</em> and wrap in-line code snippets into <code>&lt;code&gt;your_code()&lt;/code&gt;</code> tags.</p>
+<h4 id="embedded-resources">Embedded Resources<a class="headerlink" href="#embedded-resources" title="Permanent link">&para;</a></h4>
+<p>For external videos that are not hosted on our vimeo account and e.g. external code playgrounds, use <a href="https://getbootstrap.com/docs/4.0/utilities/embed/">Bootstraps responsive embed class</a>:</p>
+<pre><code>&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
+  &lt;iframe class=&quot;embed-responsive-item&quot; src=&quot;your_embed_url&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h4 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">&para;</a></h4>
 <pre><code class="html">&lt;div class=&quot;jumbotron resources&quot;&gt;
 &lt;h1&gt;Resources&lt;/h1&gt;
 &lt;/div&gt;
 </code></pre>
 
 <p>Paste the above HTML snippet into the HTML editor of your resource. Next, switch back to the WYSIWYG editor view and copy-paste your resource links into the body of the jumbotron. Style them as a bullet point list. Result:</p>
-<p><img alt="resources" src="resources.png" /></p>
-<h3 id="tasks">Tasks<a class="headerlink" href="#tasks" title="Permanent link">&para;</a></h3>
-<pre><code class="html">&lt;div class=&quot;jumbotron tasks&quot;&gt;
-&lt;h1&gt;Tasks&lt;/h1&gt;
-&lt;/div&gt;
+<p><img alt="resources" src="../imgs/resources.png" /></p>
+<h4 id="quotes">Quotes<a class="headerlink" href="#quotes" title="Permanent link">&para;</a></h4>
+<p>To highlight a section of your documentation as a quote, please use the <a href="https://getbootstrap.com/docs/4.0/content/typography/#blockquotes">Bootstrap-provided blockquote HTML</a>:</p>
+<pre><code class="html">&lt;blockquote class=&quot;blockquote text-right&quot;&gt;
+  &lt;p class=&quot;mb-0&quot;&gt;[...] programs must be written for people to read, and only incidentally for machines to execute.&lt;/p&gt;
+  &lt;footer class=&quot;blockquote-footer&quot;&gt;Abelson &amp; Sussman in &lt;a href=&quot;https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book-Z-H-7.html#%_chap_Temp_4&quot;&gt;&lt;cite title=&quot;Structure and Interpretation of Computer Programs&quot;&gt;Structure and Interpretation of Computer Programs&lt;/cite&gt;&lt;/a&gt;&lt;/footer&gt;
+&lt;/blockquote&gt;
 </code></pre>
 
-<p>Same as for Resources.</p>
-<p><img alt="resources" src="../imgs/tasks.png" /></p>
-<h3 id="quotes">Quotes<a class="headerlink" href="#quotes" title="Permanent link">&para;</a></h3>
-<p>Minimal example:</p>
-<pre><code class="html">&lt;div class=&quot;quote-card&quot;&gt;
-    &lt;p&gt;Quote goes here&lt;/p&gt;
-    &lt;cite&gt;&lt;a href=&quot;RESOURCE_URL&quot;&gt;resource name&lt;/a&gt;&lt;/cite&gt;
-&lt;/div&gt;
+<p>We are applying some custom CSS to it to make the quotes look like shown below:</p>
+<p><img alt="An adapted Bootstrap blockquote" src="../imgs/blockquote.png" /></p>
+<h4 id="latex">LaTeX<a class="headerlink" href="#latex" title="Permanent link">&para;</a></h4>
+<p>If you want to use <a href="https://www.latex-project.org/">LaTeX</a> to display formulas, the Marklar Markdown editor only supports LaTeX <strong>blocks</strong>:</p>
+<pre><code class="md">$$content$$
 </code></pre>
 
-<p><img alt="quote" src="../imgs/quote.png" /></p>
-<p>Check out the <a href="https://platform.codingnomads.co/learn/admin/settings.php?section=themesettingmaker">Maker Theme SCSS</a> for more options.</p>
-<h3 id="code-blocks">Code Blocks<a class="headerlink" href="#code-blocks" title="Permanent link">&para;</a></h3>
-<p>Wrap code snippets into triple-backticks:</p>
-<pre><code>```
-print("your code here")
-```
+<p>E.g. in order to display the following formula correctly rendered like so:</p>
+<p><img alt="rendered LaTeX formula" src="../imgs/latex_rendered.png" /></p>
+<p>You can write the following in the Marklar editor:</p>
+<pre><code class="md">$$\text{EMA}_{t}=[V_t \times (\frac d {1+n})] + \text{EMA}_y \times [1 - \frac d {1+n}]$$
 </code></pre>
-<p><strong>Note:</strong> Syntax highlighting is currently sometimes broken. This can be annoying and we hope to find a fix that'll actually solve it soon. Currently we live with it being sub-optimal.</p>
-<h3 id="in-line-code">In-line Code<a class="headerlink" href="#in-line-code" title="Permanent link">&para;</a></h3>
-<p>There is no button for marking a section of text as inline code. Therefore, you need to switch to the <em>HTML editor</em> and wrap in-line code snippets into <code>&lt;code&gt;your_code()&lt;/code&gt;</code> tags.</p>
-<hr />
-<h2 id="formatting">Formatting<a class="headerlink" href="#formatting" title="Permanent link">&para;</a></h2>
-<p>Collection of style changes and explanations regarding why we did these changes.</p>
-<h3 id="increased-code-font-size">Increased Code Font Size<a class="headerlink" href="#increased-code-font-size" title="Permanent link">&para;</a></h3>
-<p>Slightly increased code font-size: <code>code {font-size: 1.1em;}</code>. It was hard to read the code before.</p>
-<h3 id="increased-documentation-font-size">Increased Documentation Font Size<a class="headerlink" href="#increased-documentation-font-size" title="Permanent link">&para;</a></h3>
-<p>General font-size was also relatively small, so we slightly increased it.</p>
+
+<p>For more information, refer to <a href="https://www.latex-project.org/help/documentation/">the LaTeX docs</a>.</p>
+<p><strong>Note:</strong> If you need to use a couple of single-line LaTeX in a row, e.g. for explaining the contents of a formula in more detail, we suggest to use a <a href="https://getbootstrap.com/docs/4.0/content/tables/">Bootstrap table</a> for easier viewing, e.g.:</p>
+<pre><code class="html">&lt;table class=&quot;table&quot;&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+      &lt;td&gt;$$\text{EMA}_t=\text{EMA today}$$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+      &lt;td&gt;$$p_t=\text{price today}$$&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+      &lt;td&gt;$$\text{EMA}_y=\text{EMA yesterday}$$&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>
+
+<p>Renders to:</p>
+<p><img alt="LaTeX blocks in a table" src="../imgs/latex_table.png" /></p>
               
             </div>
           </div>
