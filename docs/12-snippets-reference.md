@@ -2,14 +2,14 @@
 
 This is a quick reference to the HTML snippets used in our courses to build recurring elements ([longer description here](11-platform-style.md)). Most of them are based on Bootstrap. You can read more on the relevant Bootstrap classes by clicking the snippets title.
 
-## [Section Tags](https://getbootstrap.com/docs/4.0/components/buttons/)
+## [Module Tags](https://getbootstrap.com/docs/4.0/components/buttons/)
 
 Blue:
 
 ```html
 <div class="d-flex flex-row-reverse">
   <span class="badge badge-pill badge-info">
-      Section 1
+      Module 1
   </span>
 </div>
 ```
@@ -19,7 +19,7 @@ Yellow:
 ```html
 <div class="d-flex flex-row-reverse">
   <span class="badge badge-pill badge-warning">
-    Section 2
+    Module 2
   </span>
 </div>
 ```
@@ -29,7 +29,7 @@ Yellow:
 Section Dividers (blue):
 
 ```html
-<h5 class="section-divider">Section Mini-Heading</h5>
+<h5 class="section-divider">Chapter Heading</h5>
 ```
 
 Assignment Dividers (yellow):

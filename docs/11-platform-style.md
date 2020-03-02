@@ -20,16 +20,16 @@ Additional custom components you can use when creating and editing courses.
 
 The following adaptations should be used to make the course overview page styled consistently and easier readable for students.
 
-#### 1. Section Dividers
+#### Section Dividers
 
-To improve the visual flow in a course overview, you can add colored bars to break up the course content.
+To improve the visual flow in a course overview, you can add colored bars to further break up the content of a section.
 
 ![dividers](imgs/dividers.png)
 
-**Section Dividers:** These can be used to sub-divide a larger section and give it a relevant sub-section heading. Create a "Tag Resource" on the platform, and add the following HTML code in the HTML editor:
+**Section Dividers:** These can be used to sub-divide a section into **chapters** and give it a relevant chapter heading. Create a "Tag Resource" on the platform, and add the following HTML code in the HTML editor:
 
 ```html
-<h5 class="section-divider">Section Mini-Heading</h5>
+<h5 class="section-divider">Relevant Chapter Heading</h5>
 ```
 
 **Assignment Dividers:** To indicate to students that the following materials require their own input, we use differently-colored dividers for a section that consist of instructions for mini-projects, quizzes, etc. You can create such a divider also using the "Tag Resource" and entering the following HTML code in the HTML editor:
@@ -39,9 +39,9 @@ To improve the visual flow in a course overview, you can add colored bars to bre
 ```
 
 
-#### 2. Section Tags
+#### Module Tags
 
-Section tags in the "Summary" of each section help students stay on track and visually bundle multiple sections logically together.
+Module tags in the "Summary" of each section help students stay on track and visually bundle multiple sections logically together.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/evwWenaThmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -52,7 +52,7 @@ Blue:
 ```html
 <div class="d-flex flex-row-reverse">
   <span class="badge badge-pill badge-info">
-      Section 1
+      Module 1
   </span>
 </div>
 ```
@@ -62,12 +62,12 @@ Yellow:
 ```html
 <div class="d-flex flex-row-reverse">
   <span class="badge badge-pill badge-warning">
-    Section 2
+    Module 2
   </span>
 </div>
 ```
 
-![Tags for grouping sections](imgs/section-tags.png)
+![Tags for grouping sections together into modules](imgs/module-tags.png)
 
 ---
 

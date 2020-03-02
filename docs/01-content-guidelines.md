@@ -1,5 +1,23 @@
 # Content Creation Guidelines
 
+**Course Structure Naming Convention**: Our courses are structured as follows:
+
+```text
+course
+└── module
+    └── section
+        └── chapter
+            └── lesson
+```
+
+Let's describe what each of them represent:
+
+- **Course**: This is your full course, e.g. "Python Programming"
+- **Module**: Modules are a collection of Sections that logically belong together and could be taken together. Sections are grouped together using [Module Tags](11_platform_style.md#module-tags)
+- **Section**: Also sometimes called _"Section Topics"_ or even just _"Topics"_ in Moodle 🙄. These are the collapsible sections and used for high-level structuring of the content
+- **Chapter**: You create chapters by sub-dividing sections using [Section Dividers](11_platform_style.md#section-dividers)
+- **Lesson**: Each activity or resource that you create in your course (e.g. a Page or a Quiz) can be referred to as a "lesson". This is the smallest unit that will be visible in the course overview
+
 ## Structure
 
 **Follow the 3-step-teaching principle:** Many have recommended to use this structure, and we do too.
