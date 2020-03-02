@@ -27,7 +27,17 @@ We want to make sure that all links open up in a new tab when clicked, to avoid 
 This is <a href="http://your.url" target="_blank">a link</a>
 ```
 
-**Note:** You can use [this script](https://github.com/CodingNomads/utils#replace_linkspy) to replace all normal Markdown links with HTML links that open up in new tabs. If you remember to use this script, you can write Markdown links as you're used to, and run the script before uploading your content to our platform. This may save you some editing time.
+**Auto-Expand Text Snippets**
+
+To avoid having to type this out for every link, you can e.g. use the Keyboard Text Replace functionality if you're on MacOS:
+
+![MacOS Text Replace Screenshot](imgs/tabs-auto-expand.png)
+
+This setting allows you to type e.g. `tl` in your browser where you are editing your Markdown, and it will auto-expand to `<a href="" target="_blank"></a>`. Then you only need to paste the URL and the link text.
+
+**Script-Replace All Your Markdown Links**
+
+You can also use [this script](https://github.com/CodingNomads/utils#replace_linkspy) to replace all normal Markdown links with HTML links that open up in new tabs. If you make sure to remember to use this script, you can write Markdown links as you're used to. Before uploading your content to our platform, you then only need to run the script. This may save you some editing time.
 
 ## Code And Code Blocks
 
