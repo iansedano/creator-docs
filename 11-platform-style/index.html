@@ -187,26 +187,26 @@
 <p>Additional custom components you can use when creating and editing courses.</p>
 <h3 id="course-overview-page-additional-styling">Course Overview Page Additional Styling<a class="headerlink" href="#course-overview-page-additional-styling" title="Permanent link">&para;</a></h3>
 <p>The following adaptations should be used to make the course overview page styled consistently and easier readable for students.</p>
-<h4 id="1-section-dividers">1. Section Dividers<a class="headerlink" href="#1-section-dividers" title="Permanent link">&para;</a></h4>
-<p>To improve the visual flow in a course overview, you can add colored bars to break up the course content.</p>
+<h4 id="section-dividers">Section Dividers<a class="headerlink" href="#section-dividers" title="Permanent link">&para;</a></h4>
+<p>To improve the visual flow in a course overview, you can add colored bars to further break up the content of a section.</p>
 <p><img alt="dividers" src="../imgs/dividers.png" /></p>
-<p><strong>Section Dividers:</strong> These can be used to sub-divide a larger section and give it a relevant sub-section heading. Create a "Tag Resource" on the platform, and add the following HTML code in the HTML editor:</p>
-<pre><code class="html">&lt;h5 class=&quot;section-divider&quot;&gt;Section Mini-Heading&lt;/h5&gt;
+<p><strong>Section Dividers:</strong> These can be used to sub-divide a section into <strong>chapters</strong> and give it a relevant chapter heading. Create a "Tag Resource" on the platform, and add the following HTML code in the HTML editor:</p>
+<pre><code class="html">&lt;h5 class=&quot;section-divider&quot;&gt;Relevant Chapter Heading&lt;/h5&gt;
 </code></pre>
 
 <p><strong>Assignment Dividers:</strong> To indicate to students that the following materials require their own input, we use differently-colored dividers for a section that consist of instructions for mini-projects, quizzes, etc. You can create such a divider also using the "Tag Resource" and entering the following HTML code in the HTML editor:</p>
 <pre><code class="html">&lt;h5 class=&quot;section-assignment&quot;&gt;Assignments&lt;/h5&gt;
 </code></pre>
 
-<h4 id="2-section-tags">2. Section Tags<a class="headerlink" href="#2-section-tags" title="Permanent link">&para;</a></h4>
-<p>Section tags in the "Summary" of each section help students stay on track and visually bundle multiple sections logically together.</p>
+<h4 id="module-tags">Module Tags<a class="headerlink" href="#module-tags" title="Permanent link">&para;</a></h4>
+<p>Module tags in the "Summary" of each section help students stay on track and visually bundle multiple sections logically together.</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/evwWenaThmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p>Switch off blue and yellow tags for better visual grouping.</p>
 <p>Blue:</p>
 <pre><code class="html">&lt;div class=&quot;d-flex flex-row-reverse&quot;&gt;
   &lt;span class=&quot;badge badge-pill badge-info&quot;&gt;
-      Section 1
+      Module 1
   &lt;/span&gt;
 &lt;/div&gt;
 </code></pre>
@@ -214,12 +214,12 @@
 <p>Yellow:</p>
 <pre><code class="html">&lt;div class=&quot;d-flex flex-row-reverse&quot;&gt;
   &lt;span class=&quot;badge badge-pill badge-warning&quot;&gt;
-    Section 2
+    Module 2
   &lt;/span&gt;
 &lt;/div&gt;
 </code></pre>
 
-<p><img alt="Tags for grouping sections" src="../imgs/section-tags.png" /></p>
+<p><img alt="Tags for grouping sections together into modules" src="../imgs/module-tags.png" /></p>
 <hr />
 <h3 id="page-resources-individual-styling">Page Resources Individual Styling<a class="headerlink" href="#page-resources-individual-styling" title="Permanent link">&para;</a></h3>
 <p>The following custom style elements should be considered when creating written documentation for your course content.</p>
