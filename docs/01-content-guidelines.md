@@ -18,6 +18,10 @@ Let's describe what each of them represent:
 - **Chapter**: You create chapters by sub-dividing sections using [Section Dividers](11-platform-style.md#section-dividers)
 - **Lesson**: Each activity or resource that you create in your course (e.g. a Page or a Quiz) can be referred to as a "lesson". This is the smallest unit that will be visible in the course overview
 
+![Diagram of course structure components](imgs/course_structure_diagram.png)
+
+In this diagram you saw a visual description of the different elements as they appear on our platform.
+
 ## Structure
 
 **Follow the 3-step-teaching principle:** Many have recommended to use this structure, and we do too.
