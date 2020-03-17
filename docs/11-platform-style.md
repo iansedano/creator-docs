@@ -181,7 +181,10 @@ We are applying some custom CSS to it to make the quotes look like shown below:
 
 #### LaTeX
 
-If you want to use [LaTeX](https://www.latex-project.org/) to display formulas, the Marklar Markdown editor only supports LaTeX **blocks**:
+If you use LaTeX for formulas, you'll have an easier time using the WYSIWYG editor. You can render block and inline LaTeX by following [moodle's LaTeX syntax](https://docs.moodle.org/38/en/Using_TeX_Notation). Here's [how to switch your editor](02-markdown-course-creation.md#text-editor-choice).
+
+
+If you want to use [LaTeX](https://www.latex-project.org/) with the Marklar Markdown editor, keep in mind that it only supports LaTeX **blocks**:
 
 ```md
 $$content$$

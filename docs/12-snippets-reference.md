@@ -104,8 +104,10 @@ In the platform's **HTML editor** you can create them like this: `<code>your_cod
 ```
 ## [LaTeX](https://www.latex-project.org/help/documentation/) Fomulas
 
-Use LaTeX block syntax:
+Use LaTeX block syntax in Markdown:
 
 ```md
 $$content$$
 ```
+
+Use [Moodle's LaTeX syntax](https://docs.moodle.org/38/en/Using_TeX_Notation) with the WYSIWYG editor.
