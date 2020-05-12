@@ -240,6 +240,15 @@ Below are a selection of tips and tricks to keep in mind to amp up your video cr
 
 **Upload**: Upload the finished recordings to your dedicated shared folder to allow us to give you feedback and add necessary edits.
 
+## Tips For Getting Comfortable Talking On A Screencast
+
+**Research**: Watch a couple of the videos that other course creators made. Most talk casually. Seeing that might help to give you a realistic idea of how you could do it. Diversify, look at different resources and find someone who you think has a good style. Chances are that you could work similarly. Watch their videos and learn from how they do it.
+
+**Script**: Write out the topics you want to talk about for a video, keep notes around on paper or your phone and use them as anchor points when you talk.
+
+**Double-Take**: Record the video and say what you want to say without worrying too much about it. Then throw away the audio and record _only the audio_ a second time while you watch yourself do the thing you were doing. That way you already trained talking over it once, plus you only need to focus on one task at a time: first doing, then speaking.
+
+
 ## Setting Up Video Time Instances
 
 Generally, our team will handle uploading the videos to our platform. If you are setting up the Video Time Instances yourself, make sure that the **Responsive** option is checked in the **Embed** option of the resource:
