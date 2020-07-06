@@ -193,11 +193,46 @@
 </code></pre>
 
 <p><strong>Auto-Expand Text Snippets</strong></p>
-<p>To avoid having to type this out for every link, you can e.g. use the Keyboard Text Replace functionality if you're on MacOS:</p>
+<p>To avoid having to type this out for every link, you can use <strong>Code Snippets</strong> functionality on your text editor. E.g. if you are using <strong>VSCode</strong> you can use the following for your <em>Code -&gt; Preferences -&gt; User Snippets -&gt; <code>markdown.json</code></em>:</p>
+<pre><code class="json">{
+    &quot;Create New Tab Link&quot;: {
+        &quot;prefix&quot;: [&quot;tab&quot;, &quot;tab-link&quot;, &quot;tl&quot;],
+        &quot;body&quot;: [&quot;&lt;a href='${1:https://}' target='_blank'&gt;${2:description}&lt;/a&gt;&quot;],
+        &quot;description&quot;: &quot;HTML link base that opens link in a new tab.&quot;
+    },
+    &quot;Create Markdown Image Link For Docs&quot;: {
+        &quot;prefix&quot;: [&quot;im&quot;, &quot;img-int&quot;, &quot;ii&quot;],
+        &quot;body&quot;: [&quot;![${2:alt}](../imgs/${1}.png)&quot;],
+        &quot;description&quot;: &quot;Docs internal Markdown image link.&quot;
+    },
+    &quot;Create Alert Box&quot;: {
+        &quot;prefix&quot;: [&quot;ab&quot;, &quot;alert-note&quot;, &quot;note&quot;],
+        &quot;body&quot;: [&quot;&lt;div class='alert alert-warning' role='alert'&gt;&quot;,
+                 &quot;    &lt;strong&gt;Note:&lt;/strong&gt; ${1}&quot;,
+                 &quot;&lt;/div&gt;&quot;],
+        &quot;description&quot;: &quot;Create Bootstrap alert-warning Note box.&quot;
+    },
+    &quot;Create Info Box&quot;: {
+        &quot;prefix&quot;: [&quot;ib&quot;, &quot;alert-info&quot;, &quot;info&quot;],
+        &quot;body&quot;: [&quot;&lt;div class='alert alert-info' role='alert'&gt;&quot;,
+                 &quot;    &lt;strong&gt;Info:&lt;/strong&gt; ${1}&quot;,
+                 &quot;&lt;/div&gt;&quot;],
+        &quot;description&quot;: &quot;Create Bootstrap alert-info Info box.&quot;
+    },
+    &quot;Create kbd&quot;: {
+        &quot;prefix&quot;: [&quot;kbd&quot;],
+        &quot;body&quot;: [&quot;&lt;kbd&gt;${1}&lt;/kbd&gt;&quot;],
+        &quot;description&quot;: &quot;Create an HTML 'input' tag.&quot;
+    }
+}
+</code></pre>
+
+<p>Alternatively, you can also us your operating systems' Keyboard Text Replace functionality. If you're on MacOS it looks like this:</p>
 <p><img alt="MacOS Text Replace Screenshot" src="../imgs/tabs-auto-expand.png" /></p>
-<p>This setting allows you to type e.g. <code>tl</code> in your browser where you are editing your Markdown, and it will auto-expand to <code>&lt;a href="" target="_blank"&gt;&lt;/a&gt;</code>. Then you only need to paste the URL and the link text.</p>
+<p>Same as with the code snippets in your text editor, this setting allows you to type e.g. <code>tl</code> in your browser where you are editing your Markdown, and it will auto-expand to <code>&lt;a href="" target="_blank"&gt;&lt;/a&gt;</code>. Then you only need to paste the URL and the link text.</p>
+<p>Code Snippets have the advantage that you can define where your cursor is placed and generally offer more possibilities to fine-tune the snippets. If you can, use your text editor's snippet functionality.</p>
 <p><strong>Script-Replace All Your Markdown Links</strong></p>
-<p>You can also use <a href="https://github.com/CodingNomads/utils#replace_linkspy">this script</a> to replace all normal Markdown links with HTML links that open up in new tabs. If you make sure to remember to use this script, you can write Markdown links as you're used to. Before uploading your content to our platform, you then only need to run the script. This may save you some editing time.</p>
+<p>You can also use <a href="https://github.com/CodingNomads/utils#replace_linkspy">this script</a> to replace all normal Markdown links with HTML links that open up in new tabs. If you make sure to remember to use this script before publishing, you can write Markdown links as you're used to. Before uploading your content to our platform, you then only need to run the script. This may be useful if you already have content written that uses normal Markdown links and can save you some editing time.</p>
 <h2 id="code-and-code-blocks">Code And Code Blocks<a class="headerlink" href="#code-and-code-blocks" title="Permanent link">&para;</a></h2>
 <p>Code snippets wrapped in single backticks as well as code blocks with triple-backticks are correctly rendered by the platform's Markdown engine.</p>
 <h2 id="example-markdown-rendering">Example Markdown Rendering<a class="headerlink" href="#example-markdown-rendering" title="Permanent link">&para;</a></h2>
