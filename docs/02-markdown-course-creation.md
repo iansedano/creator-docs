@@ -29,15 +29,53 @@ This is <a href="http://your.url" target="_blank">a link</a>
 
 **Auto-Expand Text Snippets**
 
-To avoid having to type this out for every link, you can e.g. use the Keyboard Text Replace functionality if you're on MacOS:
+To avoid having to type this out for every link, you can use **Code Snippets** functionality on your text editor. E.g. if you are using **VSCode** you can use the following for your _Code -> Preferences -> User Snippets -> `markdown.json`_:
+
+```json
+{
+	"Create New Tab Link": {
+		"prefix": ["tab", "tab-link", "tl"],
+		"body": ["<a href='${1:https://}' target='_blank'>${2:description}</a>"],
+		"description": "HTML link base that opens link in a new tab."
+	},
+	"Create Markdown Image Link For Docs": {
+		"prefix": ["im", "img-int", "ii"],
+		"body": ["![${2:alt}](../imgs/${1}.png)"],
+		"description": "Docs internal Markdown image link."
+	},
+	"Create Alert Box": {
+		"prefix": ["ab", "alert-note", "note"],
+		"body": ["<div class='alert alert-warning' role='alert'>",
+				 "    <strong>Note:</strong> ${1}",
+	  			 "</div>"],
+		"description": "Create Bootstrap alert-warning Note box."
+	},
+	"Create Info Box": {
+		"prefix": ["ib", "alert-info", "info"],
+		"body": ["<div class='alert alert-info' role='alert'>",
+				 "    <strong>Info:</strong> ${1}",
+	  			 "</div>"],
+		"description": "Create Bootstrap alert-info Info box."
+	},
+	"Create kbd": {
+		"prefix": ["kbd"],
+		"body": ["<kbd>${1}</kbd>"],
+		"description": "Create an HTML 'input' tag."
+	}
+}
+```
+
+Alternatively, you can also us your operating systems' Keyboard Text Replace functionality. If you're on MacOS it looks like this:
 
 ![MacOS Text Replace Screenshot](imgs/tabs-auto-expand.png)
 
-This setting allows you to type e.g. `tl` in your browser where you are editing your Markdown, and it will auto-expand to `<a href="" target="_blank"></a>`. Then you only need to paste the URL and the link text.
+Same as with the code snippets in your text editor, this setting allows you to type e.g. `tl` in your browser where you are editing your Markdown, and it will auto-expand to `<a href="" target="_blank"></a>`. Then you only need to paste the URL and the link text.
+
+Code Snippets have the advantage that you can define where your cursor is placed and generally offer more possibilities to fine-tune the snippets. If you can, use your text editor's snippet functionality.
 
 **Script-Replace All Your Markdown Links**
 
-You can also use [this script](https://github.com/CodingNomads/utils#replace_linkspy) to replace all normal Markdown links with HTML links that open up in new tabs. If you make sure to remember to use this script, you can write Markdown links as you're used to. Before uploading your content to our platform, you then only need to run the script. This may save you some editing time.
+You can also use [this script](https://github.com/CodingNomads/utils#replace_linkspy) to replace all normal Markdown links with HTML links that open up in new tabs. If you make sure to remember to use this script before publishing, you can write Markdown links as you're used to. Before uploading your content to our platform, you then only need to run the script. This may be useful if you already have content written that uses normal Markdown links and can save you some editing time.
 
 ## Code And Code Blocks
 
