@@ -51,7 +51,7 @@ Blue:
 
 ```html
 <div class="d-flex flex-row-reverse">
-  <span class="badge badge-pill badge-info">
+  <span class="badge badge-pill badge-primary">
       Module 1
   </span>
 </div>
