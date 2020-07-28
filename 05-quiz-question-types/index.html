@@ -87,9 +87,7 @@
     
         <ul>
         
-            <li><a class="toctree-l3" href="#open-ended-text-questions">Open-Ended Text Questions</a></li>
-        
-            <li><a class="toctree-l3" href="#regex-short-answer-questions">Regex Short-Answer Questions</a></li>
+            <li><a class="toctree-l3" href="#multiple-choice-and-single-choice-questions">Multiple Choice and Single Choice Questions</a></li>
         
             <li><a class="toctree-l3" href="#code-runner-questions">Code Runner Questions</a></li>
         
@@ -172,67 +170,20 @@
             <div class="section">
               
                 <h1 id="quiz-questions">Quiz Questions<a class="headerlink" href="#quiz-questions" title="Permanent link">&para;</a></h1>
-<h2 id="open-ended-text-questions">Open-Ended Text Questions<a class="headerlink" href="#open-ended-text-questions" title="Permanent link">&para;</a></h2>
-<p>Open-ended questions should allow students to research concepts themselves, as well as guide them through sample responses, and finally also automatically mark a quiz as completed when a student gave their answer to all quiz questions.</p>
-<p>To accomplish this in Moodle's question context, we use questions of the type <strong>Essay (auto-graded)</strong>.</p>
-<p>The current setup:</p>
+<p>Quiz questions are primarily meant as a chance for students to become active in their learning process, after having read or watched some content passively. They serve as quick check-in points and don't need to be too complex. Keep the questions and question types simple, both for your own and your students benefit. The main value of quizzes are:</p>
 <ul>
-<li>marks a student correct once they enter at least one character</li>
-<li>provides a sample answer when pressing the check button</li>
-<li>includes a reminder to compare and ask further questions to mentors/on the forum</li>
-<li>marks the quiz as completed when all questions have been answered</li>
+<li><strong>Activate</strong>: Switching from passive to active learning</li>
+<li><strong>Double-Check</strong>: Self-check-in for students whether they understood the main concepts from a section</li>
 </ul>
-<p><strong>Set the stage:</strong> Use <a href="https://platform.codingnomads.co/learn/question/edit.php?courseid=8&amp;cat=530%2C238&amp;category=566%2C1&amp;qbshowtext=0&amp;recurse=0&amp;showhidden=0">this information-question</a> as the first question of each open-ended quiz you create. It will signify to students that they are entering exploration mode, as well as provide useful tips and a link to our forum.</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/88s4uHrqUhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<h3 id="how-to-set-up-open-ended-text-questions">How To Set Up Open-Ended Text Questions<a class="headerlink" href="#how-to-set-up-open-ended-text-questions" title="Permanent link">&para;</a></h3>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZmOZgEJC29U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<p>In the Question Bank, create a new Category for the course section you are creating a quiz for. The suggested question type to use for questions that are designed to prompt students to think and formulate their own answers, is <a href="https://github.com/gbateson/moodle-qtype_essayautograde"><strong>Essay (autograded)</strong></a>.</p>
-<p>In <strong>Combined Feedback</strong> / "For any correct response" enter:</p>
+<p>This is why we suggest to use <strong>multiple-choice</strong> or <strong>true/false</strong> questions. We have experimented with using other question types of the many that our learning platform offers, but keeping it simple has proven to be the best way to go in terms of quizzes.</p>
+<h2 id="multiple-choice-and-single-choice-questions">Multiple Choice and Single Choice Questions<a class="headerlink" href="#multiple-choice-and-single-choice-questions" title="Permanent link">&para;</a></h2>
+<p>Choose the appropriate type when creating a question. Make sure that the following settings are applied:</p>
 <ul>
-<li>the disclaimer alert box</li>
-<li>the sample answer</li>
+<li><strong>Adaptive Mode</strong>: Grading should be set to <em>Adaptive Mode</em> to allow students to check whether they have the correct answer or not. Quizzes are meant as a learning experience, not as a test</li>
+<li><strong>No Penalties</strong>: Make sure that penalties for wrong answers are set to <code>0</code>. Again, quizzes are for learning and you don't want to penalized students for getting it wrong</li>
+<li><strong>Percentages</strong>: You will have to assign a percentage of the total point score to each answer. Make sure that these add up to 100%. E.g. if you are creating a true/false question, the correct answer should get <code>100%</code> and the wrong answer should get <code>0%</code>. If you are creating a multiple choice question, the percentages of all correct answers should add up to <code>100%</code>. If there are 3 correct answers, choose the <code>33.33%</code> setting for each of them</li>
 </ul>
-<p><img alt="combined feedback box filled" src="../imgs/01_feedback.png" /></p>
-<p><strong>Code for Disclaimer Alert Box:</strong></p>
-<pre><code class="html">&lt;div class=&quot;alert alert-success&quot; role=&quot;alert&quot;&gt;
-    &lt;strong&gt;Thanks for submitting!&lt;/strong&gt; You can compare your answer to our
-    &lt;strong&gt;sample response&lt;/strong&gt; below. Since these are open-ended questions,
-    the answers might not match completely. Please discuss any further questions
-    with your mentor and on &lt;a href=&quot;https://forum.codingnomads.co/&quot; target=&quot;_blank&quot; class=&quot;alert-link&quot;&gt;our forum&lt;/a&gt;.
-&lt;/div&gt;
-</code></pre>
-
-<p>In order to use the default auto-grading, specify a minimum number of characters to be used. This needs to be &gt;0 (e.g. <code>1</code>). If this setting is left at <code>0</code>, then students will receive an "Incorrect" mark when submitting any written content. In <strong>Auto-Grading</strong> change to "Characters" and "1" in the respective boxes:</p>
-<p><img alt="selection set to character and 1 respectively" src="../imgs/03_characters.png" /></p>
-<p>Finally, in the <strong>Multiple tries</strong> section, set the "Penalty for each incorrect try" to <code>0%</code>:</p>
-<p><img alt="set penalty to 0" src="../imgs/04_no_penalty.png" /></p>
-<h3 id="optional-settings">Optional Settings<a class="headerlink" href="#optional-settings" title="Permanent link">&para;</a></h3>
-<p>You can also change the input size of the answer text field:</p>
-<p><img alt="change input size of answer text" src="../imgs/02_input_size.png" /></p>
-<p>You can also <strong>add tags</strong> to each question:</p>
-<p><img alt="add tags" src="../imgs/05_tags.png" /></p>
-<h2 id="regex-short-answer-questions">Regex Short-Answer Questions<a class="headerlink" href="#regex-short-answer-questions" title="Permanent link">&para;</a></h2>
-<p>These work great for giving some more flexibility to students' answers.</p>
-<p><a href="https://docs.moodle.org/37/en/Regular_Expression_Short-Answer_question_type">https://docs.moodle.org/37/en/Regular_Expression_Short-Answer_question_type</a></p>
-<p>You can:</p>
-<ul>
-<li>
-<p>write Regex to specify a <strong>limited set of answers</strong>:</p>
-<blockquote>
-<p>Q: Write one keyword that is part of a Python conditional
-A: (if|elif|else)</p>
-</blockquote>
-</li>
-<li>
-<p>write Regex to <strong>exclude</strong> a wide set of wrong answers</p>
-<blockquote>
-<p>Q:</p>
-</blockquote>
-</li>
-</ul>
-<p><strong>Note:</strong> The plugin is designed to prevent using correct answers that have endless possibilities--therefore the use of Regex for correct answers is limited. This is purposefully designed like that. However, whole power of regex is available to you to identify <em>incorrect</em> answers, while needing to be specific with correct answers.</p>
+<p>As mentioned above, attempt to keep the quizzes simple. Most of the time using these two question types will be enough to give your students the experience of switching into a simple active learning mode, and helping them to check up on how much they were paying attention in the previous section.</p>
 <h2 id="code-runner-questions">Code Runner Questions<a class="headerlink" href="#code-runner-questions" title="Permanent link">&para;</a></h2>
 <p>Code Runner questions allow your students to write and execute code snippets, to test their practical understanding and train their coding skills. The screencast below explains how to set up a Code Runner question for your Quiz resource:</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1wMXtM0RSxs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
