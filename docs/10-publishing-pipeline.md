@@ -9,6 +9,7 @@ We might set up a Trello board to track courses through the different phases of 
 * **Outline Review:** Someone from our team will give you feedback on the course outline (team)
 * **Create Content:** In this phase, you'll create the main part of the course or course section. You are encouraged to reach out for feedback any time (course author)
 * **Review:** To assure that the content is consistent with the quality we want on our platform, we will review the content you create regarding technical accuracy, didactic value, and correct language. The content creation creation and review processes should go hand-in-hand to build the course incrementally and iterate over early feedback (team)
+* **Marketing:** After the content is done, you will get in contact with our marketing team and iterate with them on your course syllabus document and marketing webpage. Make sure that the technical information provided is accurate and comprehensive, and tells a good story for potential students
 * **Published:** 🎉 Well done! Time for a break!
 * **Feedback & Updates:** No course is ever _really_ finished. In this phase we will apply the feedback we receive from active students to continually improve the course content (course author)
 
@@ -18,4 +19,4 @@ Iteration is at the heart of everything in course development. As the course cre
 
 That is why we consider this initial phase of "course maintenance and updates" still as a part of the course creation. As a course creator, you are therefore required to maintain and update your course during the beta phase while the first 10 beta students learn from your material and send us their feedback.
 
-Responding to the suggestions of our beta students finally brings your excellent course content under real-world learner testing (RWLT and thereby helps to polish it to perfection.
+Responding to the suggestions of our beta students finally brings your excellent course content under real-world learner testing (RWLT) and thereby helps to polish it to perfection.
