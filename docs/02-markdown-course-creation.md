@@ -29,7 +29,7 @@ This is <a href="http://your.url" target="_blank">a link</a>
 
 **Auto-Expand Text Snippets**
 
-To avoid having to type this out for every link, you can use **Code Snippets** functionality on your text editor. E.g. if you are using **VSCode** you can use the following for your _Code -> Preferences -> User Snippets -> `markdown.json`_:
+To avoid having to type this out for every link, you can use **Code Snippets** functionality on your text editor. In fact, you can use code snippets for just about anything you'd have to otherwise type out. E.g. if you are using **VSCode** you can use the following for your _Code -> Preferences -> User Snippets -> `markdown.json`_:
 
 ```json
 {
@@ -61,7 +61,23 @@ To avoid having to type this out for every link, you can use **Code Snippets** f
 		"prefix": ["kbd"],
 		"body": ["<kbd>${1}</kbd>"],
 		"description": "Create an HTML 'input' tag."
-	}
+	},
+	"Create Python Snippet": { // Or adapt to another programming language...
+		"prefix": ["py", "ps", "python"],
+		"body": ["```python",
+			"$1",
+			"```"],
+		"description": "Create a Python code snippet in Markdown."
+	},
+	"Insert Bash Command(s)": {
+		"prefix": "ib",
+		"body": [
+			"```bash",
+			"$ $1",
+			"```"
+		],
+		"description": "Insert a bash code snippet"
+	},
 }
 ```
 
