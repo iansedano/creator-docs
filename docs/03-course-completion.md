@@ -4,7 +4,7 @@ If you are using a copied starter course, these settings should already be selec
 
 Under `Edit / Course Completion / Default activity completion` you can check up on (and set) the following default completion for resources in your course:
 
-- **Assignments**: Student must submit to this activity to complete it
+- **Assignments**: Student must submit this activity to complete it
 - **Feedback**: View as completed if the feedback is submitted
 - **Journals, Pages, URLs, Video Time Instances**: Student must view this activity to complete it
 - **Quizzes**: Student must receive a grade to complete this activity
