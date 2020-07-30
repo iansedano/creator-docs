@@ -193,7 +193,7 @@
 </code></pre>
 
 <p><strong>Auto-Expand Text Snippets</strong></p>
-<p>To avoid having to type this out for every link, you can use <strong>Code Snippets</strong> functionality on your text editor. E.g. if you are using <strong>VSCode</strong> you can use the following for your <em>Code -&gt; Preferences -&gt; User Snippets -&gt; <code>markdown.json</code></em>:</p>
+<p>To avoid having to type this out for every link, you can use <strong>Code Snippets</strong> functionality on your text editor. In fact, you can use code snippets for just about anything you'd have to otherwise type out. E.g. if you are using <strong>VSCode</strong> you can use the following for your <em>Code -&gt; Preferences -&gt; User Snippets -&gt; <code>markdown.json</code></em>:</p>
 <pre><code class="json">{
     &quot;Create New Tab Link&quot;: {
         &quot;prefix&quot;: [&quot;tab&quot;, &quot;tab-link&quot;, &quot;tl&quot;],
@@ -223,7 +223,23 @@
         &quot;prefix&quot;: [&quot;kbd&quot;],
         &quot;body&quot;: [&quot;&lt;kbd&gt;${1}&lt;/kbd&gt;&quot;],
         &quot;description&quot;: &quot;Create an HTML 'input' tag.&quot;
-    }
+    },
+    &quot;Create Python Snippet&quot;: { // Or adapt to another programming language...
+        &quot;prefix&quot;: [&quot;py&quot;, &quot;ps&quot;, &quot;python&quot;],
+        &quot;body&quot;: [&quot;```python&quot;,
+            &quot;$1&quot;,
+            &quot;```&quot;],
+        &quot;description&quot;: &quot;Create a Python code snippet in Markdown.&quot;
+    },
+    &quot;Insert Bash Command(s)&quot;: {
+        &quot;prefix&quot;: &quot;ib&quot;,
+        &quot;body&quot;: [
+            &quot;```bash&quot;,
+            &quot;$ $1&quot;,
+            &quot;```&quot;
+        ],
+        &quot;description&quot;: &quot;Insert a bash code snippet&quot;
+    },
 }
 </code></pre>
 
