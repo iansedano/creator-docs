@@ -8,7 +8,7 @@ Labs are the training exercises for your students. They are the ["katas"](https:
 
 ## Form
 
-To make it easy for students to start coding, you should provide them with files that include instructions so that they only need to open the file their preferred text editor and start coding.
+To make it easy for students to start coding, you should provide them with files that include instructions so that they only need to open the file in their preferred text editor and start coding.
 
 ## Example
 
