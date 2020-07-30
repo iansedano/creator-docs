@@ -188,7 +188,7 @@ Below are a selection of tips and tricks to keep in mind to amp up your video cr
 
 **Relaxed Code**: Give your viewers some time to see the code you just typed. Pausing for a moment helps students to absorb, type, or pause the video in the right spot without getting stressed. It helps to see the code for a few seconds before moving on.
 
-**Content-Focus**: Minimize intro times and blabbering and talk about your the content right away. Students are here to learn effectively. Occasionaly jokes and break-out moments are encouraged and really lighten the load, but make sure that overall your videos are effective and content-focused.
+**Content-Focus**: Minimize intro times and try to start talking about the content right away. Students are here to learn effectively. Occasionaly jokes and break-out moments are encouraged and really lighten the load, but make sure that overall your videos are effective and content-focused.
 
 **Large Fonts**: Use a large font in your editor. Bump up the font size. Usually, you will focus only on a small section of code at a time. Showing that specific section in a large font is absolutely preferrable to having a cluttered screen with lots of code in a small font.
 
