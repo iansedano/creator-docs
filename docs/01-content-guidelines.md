@@ -44,7 +44,7 @@ Attempt to follow these three simple steps even for short sections. Our brain pr
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/C01jEn0YZP0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Use visual aids:** Using graphs, code blocks, or also fun memes and images can help to ligthen the information load on your students. Technical content can get overwhelming. You're encouraged to loosen it up and give a break to your readers' eyes by introducing visual aids. If a text section seems long and dry to yourself, it will also seems so to your students. Pop in some images to change the visual pace.
+**Use visual aids:** Using graphs, code blocks, or also fun memes and images can help to lighten the information load on your students. Technical content can get overwhelming. You're encouraged to loosen it up and give a break to your readers' eyes by introducing visual aids. If a text section seems long and dry to yourself, it will also seems so to your students. Pop in some images to change the visual pace.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yYBcETEXFBo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
