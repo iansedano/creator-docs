@@ -20,7 +20,7 @@ These help to keep questions searchable and make it easier to add and edit quest
 
 ## Question Behavior
 
-We want students to receive immediate feedback if possible. Therefore, we encourage to use **"Adaptive Mode"** (the default) for quiz questions. You can see other possible modes in Moodle's docs on [Question behaviour](https://docs.moodle.org/37/en/Question_behaviours).
+We want students to receive immediate feedback if possible. Therefore, we encourage you to use **"Adaptive Mode"** (the default) for quiz questions. You can see other possible modes in Moodle's docs on [Question behaviour](https://docs.moodle.org/37/en/Question_behaviours).
 
 **Note:** Please use other modes only if you have a good and justified reason to do so. Chat me up with those reasons before getting started.
 
