@@ -74,6 +74,8 @@
         
             <li><a class="toctree-l3" href="#headings">Headings</a></li>
         
+            <li><a class="toctree-l3" href="#table-of-contents-toc">Table Of Contents (TOC)</a></li>
+        
             <li><a class="toctree-l3" href="#links">Links</a></li>
         
             <li><a class="toctree-l3" href="#code-and-code-blocks">Code And Code Blocks</a></li>
@@ -187,12 +189,22 @@
 <li><strong>Sub-Headings:</strong> Use <code>&lt;h4&gt;</code> (or <code>####</code> in Markdown) as your page content's sub-headings.</li>
 </ul>
 <p>The course content will be integrated in our platform, and higher-level headings are reserved for course and page headings, which need to be entered in a different entry form.</p>
+<h2 id="table-of-contents-toc">Table Of Contents (TOC)<a class="headerlink" href="#table-of-contents-toc" title="Permanent link">&para;</a></h2>
+<p>Generally I suggest to break up lessons that are too long into multiple pages. However, there are some situations when having a lot of content on a page may be unavoidable or even make sense, e.g. as a <em>reference</em>. In this cases it is helpful to provide the reader with a clickable <strong>table of contents</strong>.</p>
+<p><a href="https://github.com/CodingNomads/utils/blob/master/add_toc.py">This script</a> allows you to add a <strong>clickable TOC</strong> to the top of your Markdown documents. Note that it requires the external package called <code>md-toc</code> that you can install it via the included <code>Pipfile</code> or <code>requirements.txt</code>.</p>
+<p>If you execute the script inside of the top-level folder of your course content, it will add a linked TOC to the top of each file that contains the following <strong>HTML comment</strong>:</p>
+<pre><code class="html">&lt;!--TOC--&gt;
+</code></pre>
+
+<p>It doesn't matter where it appears, but it needs to be part of a file for the script to pick it up, analyze the headings, and create the TOC.</p>
+<p><strong>Note:</strong> The HTML comment does <em>not</em> get removed and the script does <em>not</em> check whether a TOC already exists. If you run it multiple times <em>you will get multiple TOCs</em>. Therefore, I suggest to run the script <em>once</em> at the <em>end</em> of your content creation workflow before adding the content to the course on the learning platform.</p>
+<p>You can find the script and more information in <a href="https://github.com/CodingNomads/utils/#add_tocpy">the dedicated <code>utils</code> repo</a> on GitHub.</p>
 <h2 id="links">Links<a class="headerlink" href="#links" title="Permanent link">&para;</a></h2>
 <p>We want to make sure that all links open up in a new tab when clicked, to avoid students from accidentally navigating away from the course. Markdown syntax doesn't have an equivalent to HTML's <code>target="_blank"</code> which would allow to open links in new tabs. Therefore, please use real HTML for creating links in your Markdown docs:</p>
 <pre><code class="html">This is &lt;a href=&quot;http://your.url&quot; target=&quot;_blank&quot;&gt;a link&lt;/a&gt;
 </code></pre>
 
-<p><strong>Auto-Expand Text Snippets</strong></p>
+<h3 id="auto-expand-text-snippets">Auto-Expand Text Snippets<a class="headerlink" href="#auto-expand-text-snippets" title="Permanent link">&para;</a></h3>
 <p>To avoid having to type this out for every link, you can use <strong>Code Snippets</strong> functionality on your text editor. In fact, you can use code snippets for just about anything you'd have to otherwise type out. E.g. if you are using <strong>VSCode</strong> you can use the following for your <em>Code -&gt; Preferences -&gt; User Snippets -&gt; <code>markdown.json</code></em>:</p>
 <pre><code class="json">{
     &quot;Create New Tab Link&quot;: {
@@ -240,6 +252,16 @@
         ],
         &quot;description&quot;: &quot;Insert a bash code snippet&quot;
     },
+    &quot;Create code HTML for info boxes&quot;: {
+        &quot;prefix&quot;: [&quot;cb&quot;],
+        &quot;body&quot;: [&quot;&lt;code&gt;${1}&lt;/code&gt;&quot;],
+        &quot;description&quot;: &quot;Create an HTML 'code' tag.&quot;
+    },
+    &quot;Add TOC indicator comment&quot;: {
+        &quot;prefix&quot;: [&quot;toc&quot;],
+        &quot;body&quot;: [&quot;&lt;!--TOC--&gt;\n&quot;],
+        &quot;description&quot;: &quot;Create an indicator that a TOC should be added to this page.&quot;
+    }
 }
 </code></pre>
 
@@ -247,7 +269,7 @@
 <p><img alt="MacOS Text Replace Screenshot" src="../imgs/tabs-auto-expand.png" /></p>
 <p>Same as with the code snippets in your text editor, this setting allows you to type e.g. <code>tl</code> in your browser where you are editing your Markdown, and it will auto-expand to <code>&lt;a href="" target="_blank"&gt;&lt;/a&gt;</code>. Then you only need to paste the URL and the link text.</p>
 <p>Code Snippets have the advantage that you can define where your cursor is placed and generally offer more possibilities to fine-tune the snippets. If you can, use your text editor's snippet functionality.</p>
-<p><strong>Script-Replace All Your Markdown Links</strong></p>
+<h3 id="script-replace-all-your-markdown-links">Script-Replace All Your Markdown Links<a class="headerlink" href="#script-replace-all-your-markdown-links" title="Permanent link">&para;</a></h3>
 <p>You can also use <a href="https://github.com/CodingNomads/utils#replace_linkspy">this script</a> to replace all normal Markdown links with HTML links that open up in new tabs. If you make sure to remember to use this script before publishing, you can write Markdown links as you're used to. Before uploading your content to our platform, you then only need to run the script. This may be useful if you already have content written that uses normal Markdown links and can save you some editing time.</p>
 <h2 id="code-and-code-blocks">Code And Code Blocks<a class="headerlink" href="#code-and-code-blocks" title="Permanent link">&para;</a></h2>
 <p>Code snippets wrapped in single backticks as well as code blocks with triple-backticks are correctly rendered by the platform's Markdown engine.</p>
